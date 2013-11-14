@@ -1,0 +1,31 @@
+#bingo
+{
+	border: 1px solid black;
+}
+
+#bingo td
+{
+	border: 1px solid black;
+	text-align: center;
+}
+
+#bingo td.yes
+{
+	background-color: #9c9;
+}
+
+#bingo td.no
+{
+	background-color: #f99;
+}
+
+#bingo td span
+{
+	display: block;
+}
+
+#bingo td span.modtext
+{
+	font-size: small;
+	color: gray;
+}
