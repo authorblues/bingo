@@ -10,11 +10,11 @@ Random.prototype.nextFloat = function()
 Random.prototype.nextInt = function(z)
 { return (this.nextFloat() * z)|0; }
 
-Array.prototype.shuffle = function()
+Array.prototype.shuffle = function(random)
 {
 	for (var t, i = 1, j; i < this.length; ++i)
 	{
-		j = Math.floor(Math.random() * (i + 1));
+		j = random.nextInt(i);
 		t = this[j]; this[j] = this[i]; this[i] = t;
 	}
 	
@@ -80,7 +80,7 @@ function Bingo(game, size, seed)
 
 Bingo.prototype.generateBoard = function()
 {
-	var g, gs = this.gamedata.goals.slice(0).shuffle();
+	var g, gs = this.gamedata.goals.slice(0).shuffle(this.random);
 	var m, ms = this.gamedata.modifiers;
 	
 	for (var i = 0, x = 0; i < this.size; ++i)
