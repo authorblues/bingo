@@ -10,6 +10,17 @@ Random.prototype.nextFloat = function()
 Random.prototype.nextInt = function(z)
 { return (this.nextFloat() * z)|0; }
 
+Array.prototype.shuffle = function()
+{
+	for (var t, i = 1, j; i < this.length; ++i)
+	{
+		j = Math.floor(Math.random() * (i + 1));
+		t = this[j]; this[j] = this[i]; this[i] = t;
+	}
+	
+	return this;
+}
+
 function Bingo(game, size, seed)
 {
 	// random number generator
@@ -20,9 +31,7 @@ function Bingo(game, size, seed)
 	{
 		return function(data)
 		{
-			bingo.gamedata = data;
-			
-			bingo.processGameData();
+			bingo.processGameData(data);
 			bingo.generateBoard();
 		}
 	})(this));
@@ -67,18 +76,17 @@ function Bingo(game, size, seed)
 		var cell = c.cell;
 		cell.removeClass("yes no").addClass([null, "yes", "no"][c.state]);
 	});
-	
-	
 }
 
 Bingo.prototype.generateBoard = function()
 {
-	var g, gs = this.gamedata.goals;
+	var g, gs = this.gamedata.goals.slice(0).shuffle();
 	var m, ms = this.gamedata.modifiers;
-	for (var i = 0; i < this.size; ++i)
-		for (var j = 0; j < this.size; ++j)
+	
+	for (var i = 0, x = 0; i < this.size; ++i)
+		for (var j = 0; j < this.size; ++j, ++x)
 		{
-			g = this.board[i][j].goal = gs[this.random.nextInt(gs.length)];
+			g = this.board[i][j].goal = gs[x % gs.length];
 			$("<span>").addClass("goaltext").text(g.name).appendTo(this.board[i][j].cell);
 			
 			if (ms)
@@ -91,9 +99,10 @@ Bingo.prototype.generateBoard = function()
 		}
 }
 
-Bingo.prototype.processGameData = function()
+Bingo.prototype.processGameData = function(data)
 {
-	var ms = this.gamedata.modifiers, r = 0;
+	this.gamedata = data;
+	var ms = data.modifiers, r = 0;
 	if (ms)
 	{
 		for (var i = 0; i < ms.length; ++i)
@@ -103,26 +112,36 @@ Bingo.prototype.processGameData = function()
 			ms[i].chance /= r;
 	}
 	
-	var appname = document.title = this.gamedata.name + " Bingo Generator";
-	$("#game-name").text(this.gamedata.name);
+	var appname = document.title = data.name + " Bingo Generator";
+	$("#game-name").text(data.name);
 }
 
-if (location.hash)
+if (location.hash && location.hash.indexOf("#!") === 0)
 {
 	var hash = location.hash.slice(1);
-	var parts = hash.split(",");
-	var seed;
+	var parts = hash.split("/");
+	var seed, game;
 	
-	if (parts.length < 2)
+	// remove trailing empty hash parts
+	while (parts.length && !parts[parts.length - 1]) parts.pop();
+	
+	switch (parts.length)
 	{
-		seed = Math.floor(Math.random() * 60466176);
-		location.hash = hash + "," + seed.toString(36);
-	}
-	else
-	{
-		seed = parseInt(parts[1].toLowerCase(), 36);
-		console.log("seed", seed);
+		case 0:
+		case 1:
+			break;
+		
+		case 2: // #!/game
+			game = parts[1];
+			seed = Math.floor(Math.random() * 60466176);
+			location.hash = "#!/" + game + "/" + seed.toString(36);
+			break;
+		
+		case 3: // #!/game/seed
+			game = parts[1];
+			seed = parseInt(parts[2].toLowerCase(), 36);
+			break;
 	}
 	
-	BINGO = new Bingo(parts[0], 5, seed);
+	BINGO = new Bingo(game, 5, seed);
 }

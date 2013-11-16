@@ -1,12 +1,30 @@
 #bingo
 {
 	border: 1px solid black;
+	
+	/* don't allow text to be selected */
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	
+	/* don't show a text cursor */
+	cursor: default !important;
 }
 
 #bingo td
 {
 	border: 1px solid black;
 	text-align: center;
+	
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.6)
+}
+
+#bingo td:hover, #bingo td.hover
+{
+	background-color: #ccf;
 }
 
 #bingo td.yes
@@ -23,6 +41,11 @@
 {
 	display: block;
 }
+
+/*#bingo td span.goaltext
+{
+	font-weight: bold;
+}*/
 
 #bingo td span.modtext
 {
