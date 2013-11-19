@@ -1,6 +1,18 @@
+html, body
+{
+	font-family: 'Lato', sans-serif;
+	height: 100%;
+}
+
+body.popout
+{
+	margin: 0;
+	padding: 0;
+}
+
 #bingo
 {
-	border: 1px solid black;
+	border-collapse: collapse;
 	
 	/* don't allow text to be selected */
 	-moz-user-select: none;
@@ -12,27 +24,53 @@
 	cursor: default !important;
 }
 
+body.popout #bingo
+{
+	width: 100%;
+	height: 100%;
+}
+
 #bingo td
 {
 	border: 1px solid black;
 	text-align: center;
-	
-	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.6);
-	-moz-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.6);
-	-webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.6)
 }
 
-#bingo td:hover, #bingo td.hover
+#bingo td.header
 {
-	background-color: #ccf;
+	font-weight: bold;
+	font-size: small;
+	padding: 5px;
 }
 
-#bingo td.yes
+body.popout #bingo td.header
+{
+	height: 0px;
+}
+
+#bingo td.goal
+{
+	box-shadow: inset 0px 0px 50px rgba(255, 255, 255, 0.4);
+	-moz-box-shadow: inset 0px 0px 50px rgba(255, 255, 255, 0.4);
+	-webkit-box-shadow: inset 0px 0px 50px rgba(255, 255, 255, 0.4);
+}
+
+body.popout #bingo td.goal
+{
+	height: 20%;
+}
+
+#bingo td.goal:hover, #bingo td.goal.hover
+{
+	background-color: #ddf;
+}
+
+#bingo td.goal.yes
 {
 	background-color: #9c9;
 }
 
-#bingo td.no
+#bingo td.goal.no
 {
 	background-color: #f99;
 }

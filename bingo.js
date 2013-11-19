@@ -21,10 +21,11 @@ Array.prototype.shuffle = function(random)
 	return this;
 }
 
-function Bingo(game, size, seed)
+function Bingo(game, size, seed, balance)
 {
 	// random number generator
 	this.random = new Random(seed);
+	this.balanced = balance;
 	
 	this.gamedata = null;
 	$.getJSON("games/" + game + GAME_DATA_EXTENSION, (function(bingo)
@@ -41,15 +42,25 @@ function Bingo(game, size, seed)
 	this.size = size;
 	
 	var i, j, n = 1;
+	
+	var header = $("<tr>").appendTo(table);
+	for (j = 0; j <= size; ++j)
+	{
+		var type = j == 0 ? "diag1" : ("col" + j);
+		var hdr = $("<td>").attr("data-type", type).addClass("header");
+		hdr.text(j == 0 ? "TL-BR" : "COL" + j).appendTo(header);
+	}
+	
 	for (i = 1; i <= size; ++i)
 	{
 		var row = $("<tr>").addClass("row" + i);
+		$("<td>").addClass("header").attr("data-type", "row" + i).text("ROW" + i).appendTo(row);
 		var brow = [];
 		
 		for (j = 1; j <= size; ++j, ++n)
 		{
-			var cell = $("<td>").addClass("col" + j), c;
-			cell.attr("data-cell", n);
+			var cell = $("<td>").addClass("col" + j).addClass("row" + i), c;
+			cell.addClass("goal").attr("data-cell", n);
 			
 			// add diagonals
 			if (i == j) cell.addClass("diag1");
@@ -66,15 +77,51 @@ function Bingo(game, size, seed)
 		board.push(brow);
 	}
 	
+	$("<tr>").append($("<td>").text("TR-BL").addClass("header").attr("data-type", "diag2")).appendTo(table);
+	
 	// add the table to the screen now
 	$("#bingo-container").empty().append(table);
-	$("#bingo td").width(120).height(120).click(function(e)
+	$("#bingo td.goal").width(120).height(120).click(function(e)
 	{
 		var c = $(this).data('cell-data');
 		c.state = (c.state + 1) % 3;
 		
 		var cell = c.cell;
 		cell.removeClass("yes no").addClass([null, "yes", "no"][c.state]);
+	});
+	
+	$("#bingo td.header").hover(
+		function() { $("#bingo td.goal." + $(this).attr("data-type")).addClass("hover"); }, 
+		function() { $("#bingo td.goal." + $(this).attr("data-type")).removeClass("hover"); }
+	)
+	.click(function()
+	{
+		var tds = [];
+		$("#bingo td.goal." + $(this).attr("data-type")).each(function(i, x){ tds.push(x); });
+		console.log(tds.length, tds);
+		
+		var win = window.open('popout.html', '_blank', 'toolbar=no, location=no, directories=no, status=no, '
+			+ 'menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=150, height=550');
+		win.addEventListener('load', (function(title, elems)
+		{
+			return function()
+			{
+				setTimeout(function()
+				{
+					var winbody = $(win.document.body);
+					$('#bingo th', winbody).text(title).height(25);
+					
+					$(elems).each(function(i, x)
+					{
+						var td = $('<td>').addClass('goal').html($(x).html());
+						$('#bingo', winbody).append($('<tr>').append(td));
+					});
+					
+					var h = win.innerHeight - 100;
+					$('#bingo td.goal', winbody).height(h / size);
+				}, 500);
+			};
+		})($(this).text(), tds), false);
 	});
 }
 
@@ -116,7 +163,7 @@ Bingo.prototype.processGameData = function(data)
 	$("#game-name").text(data.name);
 }
 
-if (location.hash && location.hash.indexOf("#!") === 0)
+function regenerateBoard()
 {
 	var hash = location.hash.slice(1);
 	var parts = hash.split("/");
@@ -145,3 +192,7 @@ if (location.hash && location.hash.indexOf("#!") === 0)
 	
 	BINGO = new Bingo(game, 5, seed);
 }
+
+window.onhashchange = regenerateBoard;
+if (location.hash && location.hash.indexOf("#!") === 0)
+	regenerateBoard();
