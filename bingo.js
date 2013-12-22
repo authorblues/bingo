@@ -230,6 +230,7 @@ Bingo.prototype.generateBoard = function()
 {
 	var g, gs = this.gamedata.goals.clone(), x;
 	var m, ms = this.gamedata.modifiers;
+	var tagdata = this.gamedata.tags;
 
 	var range = this.maxdifficulty - this.mindifficulty;
 	for (var i = 0; i < this.size; ++i)
@@ -245,8 +246,14 @@ Bingo.prototype.generateBoard = function()
 				var vmods = ms["*"] || [], tags = g.tags || [], valid = true;
 
 				for (var k = 0; k < tags.length; ++k)
+				{
+					var negated = tags[k].charAt(0) == "-" ? tags[k].substr(1) : ("-" + tags[k]);
+					var tdata = tagdata[tags[k]], allowmult = tdata && tdata.allowmultiple !== undefined ? tdata.allowmultiple : true;
+					
 					for (var z = 0; z < this.board[i][j].groups.length; ++z)
-						if (this.board[i][j].groups[z].contains(tags[k])) valid = false;
+						if ((!allowmult && this.board[i][j].groups[z].contains(tags[k])) ||
+							this.board[i][j].groups[z].contains(negated)) valid = false;
+				}
 
 				if (valid)
 				{
