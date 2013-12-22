@@ -65,11 +65,14 @@
 		{ "name": "Stage 60", "difficulty": 60 }
 	],
 	
-	"modifiers": [
-		{ "name": "Friction = 8", "difficulty": 10, "chance": 10 },
-		{ "name": "Friction = 16", "difficulty": 5, "chance": 20 },
-		{ "name": "Friction = 32", "difficulty": 0, "chance": 40 },
-		{ "name": "Friction = 64", "difficulty": 3, "chance": 20 },
-		{ "name": "Friction = 128", "difficulty": 6, "chance": 10 }
-	]
+	"modifiers": {
+		"@required": true,
+		"*": [
+			{ "name": "Friction = 8", "difficulty": 10 },
+			{ "name": "Friction = 16", "difficulty": 5 },
+			{ "name": "Friction = 32", "difficulty": 0 },
+			{ "name": "Friction = 64", "difficulty": 3 },
+			{ "name": "Friction = 128", "difficulty": 6 }
+		]
+	}
 }
