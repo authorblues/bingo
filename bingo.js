@@ -248,7 +248,7 @@ Bingo.prototype.generateBoard = function()
 				for (var k = 0; k < tags.length; ++k)
 				{
 					var negated = tags[k].charAt(0) == "-" ? tags[k].substr(1) : ("-" + tags[k]);
-					var tdata = tagdata[tags[k]], allowmult = tdata && tdata.allowmultiple !== undefined ? tdata.allowmultiple : true;
+					var tdata = tagdata[tags[k]], allowmult = tdata && tdata.allowmultiple !== undefined ? tdata.allowmultiple : false;
 					
 					for (var z = 0; z < this.board[i][j].groups.length; ++z)
 						if ((!allowmult && this.board[i][j].groups[z].contains(tags[k])) ||
