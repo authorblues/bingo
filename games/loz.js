@@ -80,7 +80,7 @@
 		{ "name": "Defeat Digdogger (Level 5)", "difficulty": 5, "tags": ["L5"] },
 		{ "name": "Defeat Gohma (Level 6)", "difficulty": 6, "tags": ["L6"] },
 		{ "name": "Defeat Aquamentis (Level 7)", "difficulty": 4, "tags": ["L7"] },
-		{ "name": "Defeat Gleeok (Level 8)", "difficulty": 7, "tags": ["L8"] },
+		{ "name": "Defeat Gleeok (Level 8)", "difficulty": 7, "tags": ["L8"] }
 	],
 	
 	"tags": {
