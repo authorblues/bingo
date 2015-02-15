@@ -229,7 +229,7 @@ Bingo.DIFFICULTY_PETURBATION = 0.2;
 Bingo.prototype.generateBoard = function()
 {
 	var g, gs = this.gamedata.goals.clone(), x;
-	var m, ms = this.gamedata.modifiers;
+	var m, ms = this.gamedata.modifiers || {};
 	var tagdata = this.gamedata.tags;
 
 	var range = this.maxdifficulty - this.mindifficulty;
