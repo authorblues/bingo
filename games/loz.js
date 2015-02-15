@@ -93,5 +93,5 @@
 		"L7": { "allowmultiple": false },
 		"L8": { "allowmultiple": false },
 		"L9": { "allowmultiple": false },
-	},
+	}
 }
