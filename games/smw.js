@@ -73,6 +73,8 @@
 		{ "name": "Beat Funky", "difficulty": 16, "tags": ["specialworld"] },
 		
 		{ "name": "Turn Red Yoshi Blue", "difficulty": 10, "tags": ["odd"] },
+		{ "name": "Neon World Glitch", "difficulty": 5, "tags": ["odd", "yoshi", "orb"] },
+		{ "name": "Orb 5 levels", "difficulty": 15, "tags": ["odd", "orb"] },
 		
 		{ "name": "NO CAPE", "difficulty": 30, "tags": ["-cape"] },
 		{ "name": "NO YOSHI", "difficulty": 20, "tags": ["-yoshi"] }
