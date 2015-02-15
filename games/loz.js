@@ -43,16 +43,16 @@
 		
 		{ "name": "Give Letter to Old Lady", "difficulty": 3 },
 		
-		{ "name": "Swordless", "difficulty": 20, "tags": ["sword", "-ganon"] },
-		{ "name": "Wooden Sword Only", "difficulty": 16, "tags": ["sword"] },
-		{ "name": "White Sword", "difficulty": 4, "tags": ["sword"] },
-		{ "name": "Magical Sword", "difficulty": 14, "tags": ["sword"] },
+		{ "name": "Swordless", "difficulty": 20, "tags": ["swordhearts", "-ganon"] },
+		{ "name": "Wooden Sword Only", "difficulty": 16, "tags": ["swordhearts"] },
+		{ "name": "White Sword", "difficulty": 4, "tags": ["swordhearts"] },
+		{ "name": "Magical Sword", "difficulty": 14, "tags": ["swordhearts"] },
 		
 		{ "name": "Finish with 6+ Keys",  "difficulty":  6, "tags": ["keys"] },
 		{ "name": "Finish with 9+ Keys",  "difficulty": 10, "tags": ["keys"] },
 		{ "name": "Finish with 12+ Keys", "difficulty": 15, "tags": ["keys"] },
 		
-		{ "name": "Beat Ganon", "difficulty": 20, "tags": ["ganon"] },
+		{ "name": "Beat Ganon", "difficulty": 20, "tags": ["ganon", "L9"] },
 		
 		{ "name": "Acquire Life Potion", "difficulty": 3 },
 		{ "name": "Acquire Bow", "difficulty": 3, "tags": ["bow"] },
@@ -73,14 +73,14 @@
 		{ "name": "Acquire Red Ring (No Blue)", "difficulty": 5 },
 		{ "name": "Acquire Blue Ring", "difficulty": 6, "tags": ["rupees"] },
 		
-		{ "name": "Defeat Aquamentis (Level 1)", "difficulty": , "tags": ["L1"] },
-		{ "name": "Defeat Dodongo (Level 2)", "difficulty": , "tags": ["L2", "bombs"] },
-		{ "name": "Defeat Manhandla (Level 3)", "difficulty": , "tags": ["L3"] },
-		{ "name": "Defeat Gleeok (Level 4)", "difficulty": , "tags": ["L4"] },
-		{ "name": "Defeat Digdogger (Level 5)", "difficulty": , "tags": ["L5"] },
-		{ "name": "Defeat Gohma (Level 6)", "difficulty": , "tags": ["L6"] },
-		{ "name": "Defeat Aquamentis (Level 7)", "difficulty": , "tags": ["L7"] },
-		{ "name": "Defeat Gleeok (Level 8)", "difficulty": , "tags": ["L8"] },
+		{ "name": "Defeat Aquamentis (Level 1)", "difficulty": 2, "tags": ["L1"] },
+		{ "name": "Defeat Dodongo (Level 2)", "difficulty": 2, "tags": ["L2"] },
+		{ "name": "Defeat Manhandla (Level 3)", "difficulty": 3, "tags": ["L3"] },
+		{ "name": "Defeat Gleeok (Level 4)", "difficulty": 4, "tags": ["L4"] },
+		{ "name": "Defeat Digdogger (Level 5)", "difficulty": 5, "tags": ["L5"] },
+		{ "name": "Defeat Gohma (Level 6)", "difficulty": 6, "tags": ["L6"] },
+		{ "name": "Defeat Aquamentis (Level 7)", "difficulty": 4, "tags": ["L7"] },
+		{ "name": "Defeat Gleeok (Level 8)", "difficulty": 7, "tags": ["L8"] },
 	],
 	
 	"tags": {
