@@ -114,7 +114,7 @@ function Bingo(game, size, seed, difficulty, balance)
 		this.difficulty = Bingo.DIFFICULTY_TABLE[difficulty];
 	
 	// random number generator
-	this.random = new Random(seed);
+	this.random = new Random(seed + this.difficulty);
 	this.balanced = balance;
 
 	this.gamedata = null;
