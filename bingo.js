@@ -268,6 +268,7 @@ Bingo.prototype.generateBoard = function()
 					var negated = tags[k].charAt(0) == "-" ? tags[k].substr(1) : ("-" + tags[k]);
 					var tdata = tagdata[tags[k]], allowmult = tdata && tdata.allowmultiple !== undefined ? tdata.allowmultiple : false;
 					
+					if (!(tags[k] in tagdata)) tdata = tagdata[tags[k]] = {};
 					if (tdata && tdata.singleuse && tdata['@used']) valid = false;
 					
 					for (var z = 0; z < this.board[i][j].groups.length; ++z)
