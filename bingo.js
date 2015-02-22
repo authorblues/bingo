@@ -107,14 +107,11 @@ function MagicSquare(size, random)
 	}
 }
 
-function Bingo(game, size, seed, balance)
+function Bingo(game, size, seed, difficulty, balance)
 {
-	var gameparts = game.split('-');
-	game = gameparts[0];
-	
 	this.difficulty = 0;
-	if (gameparts.length > 1 && gameparts[1] in Bingo.DIFFICULTY_TABLE)
-		this.difficulty = Bingo.DIFFICULTY_TABLE[gameparts[1]];
+	if (difficulty && difficulty in Bingo.DIFFICULTY_TABLE)
+		this.difficulty = Bingo.DIFFICULTY_TABLE[difficulty];
 	
 	// random number generator
 	this.random = new Random(seed);
@@ -363,6 +360,7 @@ function regenerateBoard()
 	// remove trailing empty hash parts
 	while (parts.length && !parts[parts.length - 1]) parts.pop();
 
+	var difficulty = null;
 	switch (parts.length)
 	{
 		case 0:
@@ -379,9 +377,15 @@ function regenerateBoard()
 			game = parts[1];
 			seed = parseInt(parts[2].toLowerCase(), 36);
 			break;
+
+		case 4: // #!/game/seed/difficulty
+			game = parts[1];
+			seed = parseInt(parts[2].toLowerCase(), 36);
+			difficulty = parts[3];
+			break;
 	}
 
-	BINGO = new Bingo(game, 5, seed);
+	BINGO = new Bingo(game, 5, seed, difficulty);
 }
 
 window.onhashchange = regenerateBoard;
