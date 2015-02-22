@@ -104,17 +104,27 @@ body.popout #bingo td.goal
 
 #bingo td.goal:hover, #bingo td.goal.hover
 {
-	background-color: #555565;
+	background-color: #3F3F3F;
 }
 
 #bingo td.goal.yes
 {
-	background-color: #558555;
+	background-color: #488948;
+}
+
+#bingo td.goal.yes:hover, #bingo td.goal.yes.hover
+{
+	background-color: #529B52;
 }
 
 #bingo td.goal.no
 {
-	background-color: #855555;
+	background-color: #874747;
+}
+
+#bingo td.goal.no:hover, #bingo td.goal.no.hover
+{
+	background-color: #995151;
 }
 
 #bingo td span
@@ -132,5 +142,4 @@ body.popout #bingo td.goal
 {
 	font-size: 8pt;
 	color: #ADADAD;
-	color: gray;
 }
