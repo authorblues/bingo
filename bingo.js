@@ -399,7 +399,8 @@ function setDifficulty(diff)
 {
 	// set the location hash properly, everything else should take care of itself
 	var lvl = diff && diff.length ? ("/" + diff) : "";
-	location.hash = "#!/" + BINGO.game + "/" + BINGO.seed.toString(36) + lvl;
+	var seed = Math.floor(Math.random() * 60466176).toString(36);
+	location.hash = "#!/" + BINGO.game + "/" + seed + lvl;
 }
 
 $('button.set-diff').click(function(e) { setDifficulty($(this).attr('data-diff')); });
