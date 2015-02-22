@@ -288,7 +288,7 @@ Bingo.prototype.generateBoard = function()
 				if (xx > Bingo.MAXITERATIONS)
 				{
 					console.log("Could not find a suitable goal for R" + (i+1) + "xC" + (j+1) + " after " + xx + " iterations");
-					$("<span>").addClass("goaltext").text("# ERROR #").appendTo(this.board[i][j].cell);
+					$("<span>").addClass("goaltext").text("# ERROR #").appendTo(this.board[i][j].cell); break;
 				}
 			}
 
