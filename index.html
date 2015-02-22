@@ -2,17 +2,25 @@
 <html>
 <head>
 	<title>Bingo Generator</title>
-	<link rel="stylesheet" type="text/css" href="bingo.css"></link>
+	<link rel="stylesheet" type="text/css" href="style/default.css"></link>
 	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 	
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-<h1>Bingo Generator</h1>
 <h2 id="game-name"></h2>
-<div id="bingo-container"></div>
-<div id="game-rules"></div>
+
+<div id="bingo">
+	<div id="bingo-container"></div>
+	<div id="about-panel">
+		<div>
+			<h3 id="game-name"></h3>
+			
+		</div>
+		<div id="game-rules"></div>
+	</div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="bingo.js"></script>
