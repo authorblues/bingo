@@ -114,9 +114,11 @@ function Bingo(game, size, seed, difficulty, balance)
 		this.difficulty = Bingo.DIFFICULTY_TABLE[difficulty];
 	
 	// random number generator
+	this.seed = seed;
 	this.random = new Random(seed + this.difficulty);
 	this.balanced = balance;
 
+	this.game = game;
 	this.gamedata = null;
 	$.getJSON("games/" + game + GAME_DATA_EXTENSION, (function(bingo)
 	{
@@ -386,6 +388,12 @@ function regenerateBoard()
 	}
 
 	BINGO = new Bingo(game, 5, seed, difficulty);
+}
+
+function setDifficulty(diff)
+{
+	// set the location hash properly, everything else should take care of itself
+	location.hash = "#!/" + BINGO.game + "/" + BINGO.seed.toString(36) + "/" + diff;
 }
 
 window.onhashchange = regenerateBoard;
