@@ -348,8 +348,9 @@ Bingo.prototype.processGameData = function(data)
 	if (data.rules)
 	{
 		var rulelist = $('#game-rules ul');
+		$('li.game-gen', rulelist).remove();
 		for (var i = 0; i < data.rules.length; ++i)
-			rulelist.append($('<li>').text(data.rules[i]));
+			rulelist.append($('<li>').addClass('game-gen').text(data.rules[i]));
 	}
 }
 
@@ -397,7 +398,7 @@ function setDifficulty(diff)
 	location.hash = "#!/" + BINGO.game + "/" + BINGO.seed.toString(36) + lvl;
 }
 
-$('button.set-diff').click(function(e) { setDifficulty($(this).attr('diff')); });
+$('button.set-diff').click(function(e) { setDifficulty($(this).attr('data-diff')); });
 
 window.onhashchange = regenerateBoard;
 if (location.hash && location.hash.indexOf("#!") === 0)
