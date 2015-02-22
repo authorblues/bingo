@@ -109,6 +109,13 @@ function MagicSquare(size, random)
 
 function Bingo(game, size, seed, balance)
 {
+	var gameparts = game.split('-');
+	game = gameparts[0];
+	
+	this.difficulty = 0;
+	if (gameparts.length > 1 && gameparts[1] in Bingo.DIFFICULTY_TABLE)
+		this.difficulty = Bingo.DIFFICULTY_TABLE[gameparts[1]];
+	
 	// random number generator
 	this.random = new Random(seed);
 	this.balanced = balance;
@@ -224,6 +231,17 @@ function Bingo(game, size, seed, balance)
 	});
 }
 
+Bingo.DIFFICULTY_TABLE = {
+	'easy': -1,
+	'e': -1,
+	'normal': 0,
+	'n': 0,
+	'hard': 1,
+	'h': 1,
+	'difficult': 1,
+	'd': 1,
+};
+
 Bingo.DIFFICULTY_PETURBATION = 0.2;
 
 Bingo.prototype.generateBoard = function()
@@ -278,6 +296,7 @@ Bingo.prototype.generateBoard = function()
 		}
 }
 
+Bingo.DIFFICULTY_KEEPSIZE = 3/5;
 Bingo.prototype.processGameData = function(data)
 {
 	this.gamedata = data;
@@ -286,6 +305,20 @@ Bingo.prototype.processGameData = function(data)
 	for (var i = 0; i < data.goals.length; ++i)
 		if (!data.goals[i].distance) data.goals[i].distance = 0;
 	data.goals.sort(function(a, b){ return a.difficulty - b.difficulty; });
+	
+	var keepnum = Math.round(data.goals.length * Bingo.DIFFICULTY_KEEPSIZE);
+	switch (this.difficulty)
+	{
+		case -1:
+			// EASY: keep only the easiest goals
+			data.goals = data.goals.slice(0, keepnum);
+			break;
+			
+		case 1:
+			// HARD: keep only the hardest goals
+			data.goals = data.goals.slice(data.goals.length - keepnum);
+			break;
+	}
 
 	this.maxdifficulty = data.goals[data.goals.length - 1].difficulty;
 	this.mindifficulty = data.goals[0].difficulty;
