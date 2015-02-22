@@ -52,7 +52,7 @@ body.popout #bingo
 #bingo td.header
 {
 	font-weight: bold;
-	font-size: small;
+	font-size: 10pt;
 	padding: 5px;
 }
 
@@ -71,6 +71,18 @@ body.popout #bingo td.header
 	-moz-box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.5);
 	padding: 3px;
+}
+
+.note
+{
+	font-size: 8pt;
+	font-variant: italic;
+	color: gray;
+}
+
+.right
+{
+	text-align: right;
 }
 
 body.popout #bingo td.goal
