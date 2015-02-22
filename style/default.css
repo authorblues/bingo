@@ -1,7 +1,10 @@
 html, body
 {
+	color: #D6D6D6;
 	font-family: 'Lato', sans-serif;
 	height: 100%;
+	background-color: #282828;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 body.popout
@@ -94,5 +97,6 @@ body.popout #bingo td.goal
 #bingo td span.modtext
 {
 	font-size: 8pt;
+	color: #ADADAD;
 	color: gray;
 }
