@@ -10,14 +10,9 @@ body.popout
 	padding: 0;
 }
 
-#panel-container #bingo-container
-{
-	float: left;
-}
-
 #panel-container #about-panel
 {
-	float: right;
+	font-size: 10pt;
 }
 
 #bingo
@@ -88,6 +83,7 @@ body.popout #bingo td.goal
 #bingo td span
 {
 	display: block;
+	font-size: 10pt;
 }
 
 /*#bingo td span.goaltext
@@ -97,6 +93,6 @@ body.popout #bingo td.goal
 
 #bingo td span.modtext
 {
-	font-size: small;
+	font-size: 8pt;
 	color: gray;
 }

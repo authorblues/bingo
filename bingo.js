@@ -393,8 +393,11 @@ function regenerateBoard()
 function setDifficulty(diff)
 {
 	// set the location hash properly, everything else should take care of itself
-	location.hash = "#!/" + BINGO.game + "/" + BINGO.seed.toString(36) + "/" + diff;
+	var lvl = diff && diff.length ? ("/" + diff) : "";
+	location.hash = "#!/" + BINGO.game + "/" + BINGO.seed.toString(36) + lvl;
 }
+
+$('button.set-diff').click(function(e) { setDifficulty($(this).attr('diff')); });
 
 window.onhashchange = regenerateBoard;
 if (location.hash && location.hash.indexOf("#!") === 0)
