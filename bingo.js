@@ -243,7 +243,7 @@ Bingo.DIFFICULTY_TABLE = {
 };
 
 Bingo.DIFFICULTY_PETURBATION = 0.2;
-Bingo.MAXITERATIONS = 100;
+Bingo.MAXITERATIONS = 200;
 
 Bingo.prototype.generateBoard = function()
 {
@@ -257,7 +257,9 @@ Bingo.prototype.generateBoard = function()
 		{
 			for (var xx = 0;; xx++)
 			{
-				var peturbation = this.random.nextGaussian() * Bingo.DIFFICULTY_PETURBATION;
+				// failsafe: widen search space after 25 iterations
+				var peturbation = this.random.nextGaussian() * (xx < 25 ? Bingo.DIFFICULTY_PETURBATION : 1.0);
+				
 				base = Math.min(Math.max(0.0, this.magic.square[i][j] + peturbation), 1.0);
 				x = gs.bsearch(base * range + this.mindifficulty, function(x){ return x.difficulty; });
 
@@ -269,8 +271,12 @@ Bingo.prototype.generateBoard = function()
 					var negated = tags[k].charAt(0) == "-" ? tags[k].substr(1) : ("-" + tags[k]);
 					var tdata = tagdata[tags[k]], allowmult = tdata && tdata.allowmultiple !== undefined ? tdata.allowmultiple : false;
 					
+					// failsafe: after 50 iterations, don't constrain on allowmultiple tags
+					if (xx > 50) allowmult = true;
+					
+					// failsafe: after 75 iterations, don't constrain on singleuse tags
 					if (!(tags[k] in tagdata)) tdata = tagdata[tags[k]] = {};
-					if (tdata && tdata.singleuse && tdata['@used']) valid = false;
+					if (tdata && tdata.singleuse && tdata['@used'] && xx < 75) valid = false;
 					
 					for (var z = 0; z < this.board[i][j].groups.length; ++z)
 						if ((!allowmult && this.board[i][j].groups[z].contains(tags[k])) ||
