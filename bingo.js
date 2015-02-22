@@ -317,8 +317,14 @@ Bingo.DIFFICULTY_KEEPSIZE = 3/5;
 Bingo.prototype.processGameData = function(data)
 {
 	this.gamedata = data;
-	var appname = document.title = data.name + " Bingo Generator";
+	var appname = document.title = data.name + " Bingo";
 
+	if (data.goals.length < 25)
+	{
+		console.error("25 goals required for a standard 5x5 bingo board");
+		return;
+	}
+	
 	for (var i = 0; i < data.goals.length; ++i)
 		if (!data.goals[i].distance) data.goals[i].distance = 0;
 	data.goals.sort(function(a, b){ return a.difficulty - b.difficulty; });
@@ -354,6 +360,15 @@ Bingo.prototype.processGameData = function(data)
 	
 	if (i1 == null) i1 = 0;
 	if (i2 == null) i2 = data.goals.length;
+	
+	// ensure there are always at least 25 goals
+	if (i2 - i1 < 25)
+	{
+		if (i2 == data.goals.length)
+			i1 = data.goals.length - 25;
+		else { i1 = 0; i2 = 25; }
+	}
+	
 	data.goals = data.goals.slice(i1, i2);
 
 	this.maxdifficulty = data.goals[data.goals.length - 1].difficulty;
