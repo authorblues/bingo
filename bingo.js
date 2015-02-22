@@ -326,6 +326,14 @@ Bingo.prototype.processGameData = function(data)
 	this.modrequired = this.gamedata.modifiers && !!this.gamedata.modifiers['@required'];
 	delete this.gamedata.modifiers['@required'];
 	$("#game-name").text(data.name);
+	
+	if (data.rules)
+	{
+		var rulelist = $('<ul>');
+		for (var i = 0; i < data.rules.length; ++i)
+			rulelist.append($('<li>').text(data.rules[i]));
+		$('#game-rules').html(rulelist);
+	}
 }
 
 function regenerateBoard()
