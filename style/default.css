@@ -88,7 +88,13 @@ body.popout #bingo td.header
 .note.right
 {
 	float: right;
+	clear: both;
 	margin-right: 10px;
+}
+
+.note.spaced
+{
+	margin-bottom: 5px;
 }
 
 body.popout #bingo td.goal
