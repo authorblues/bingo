@@ -1,5 +1,6 @@
 {
 	"name": "Animal Crossing",
+	"author": "Forstride",
 	"platform": "Gamecube",
 	
 	"rules": [

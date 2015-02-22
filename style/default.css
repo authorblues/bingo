@@ -87,7 +87,7 @@ body.popout #bingo td.header
 
 .right
 {
-	text-align: right;
+	float: right;
 }
 
 body.popout #bingo td.goal

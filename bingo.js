@@ -352,6 +352,10 @@ Bingo.prototype.processGameData = function(data)
 		for (var i = 0; i < data.rules.length; ++i)
 			rulelist.append($('<li>').addClass('game-gen').text(data.rules[i]));
 	}
+	
+	$('#bingo-attrib').toggle(!!data.author);
+	if (data.author)
+		$('#bingo-author').text(data.author);
 }
 
 function regenerateBoard()
