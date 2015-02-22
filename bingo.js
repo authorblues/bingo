@@ -206,7 +206,7 @@ function Bingo(game, size, seed, difficulty, balance)
 		console.log(tds.length, tds);
 
 		var win = window.open('popout.html', '_blank', 'toolbar=no, location=no, directories=no, status=no, '
-			+ 'menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=150, height=550');
+			+ 'menubar=no, scrollbars=no, resizable=yes, copyhistory=no, width=250, height=550');
 		win.addEventListener('load', (function(title, elems)
 		{
 			return function()
