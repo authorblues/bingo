@@ -268,6 +268,8 @@ Bingo.prototype.generateBoard = function()
 					var negated = tags[k].charAt(0) == "-" ? tags[k].substr(1) : ("-" + tags[k]);
 					var tdata = tagdata[tags[k]], allowmult = tdata && tdata.allowmultiple !== undefined ? tdata.allowmultiple : false;
 					
+					if (tdata.singleuse && tdata['@used']) valid = false;
+					
 					for (var z = 0; z < this.board[i][j].groups.length; ++z)
 						if ((!allowmult && this.board[i][j].groups[z].contains(tags[k])) ||
 							this.board[i][j].groups[z].contains(negated)) valid = false;
@@ -275,6 +277,7 @@ Bingo.prototype.generateBoard = function()
 
 				if (valid)
 				{
+					for (var k = 0; k < tags.length; ++k) tagdata[tags[k]]['@used'] = true;
 					$("<span>").addClass("goaltext").text(g.name).appendTo(this.board[i][j].cell);
 					gs.splice(x, 1); break;
 				}
