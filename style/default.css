@@ -85,9 +85,10 @@ body.popout #bingo td.header
 	color: gray;
 }
 
-.right
+.note.right
 {
 	float: right;
+	margin-right: 10px;
 }
 
 body.popout #bingo td.goal
