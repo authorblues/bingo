@@ -293,7 +293,7 @@ Bingo.prototype.generateBoard = function()
 				if (xx > Bingo.MAXITERATIONS)
 				{
 					console.log("Could not find a suitable goal for R" + (i+1) + "xC" + (j+1) + " after " + xx + " iterations");
-					$("<span>").addClass("goaltext").text("# ERROR #").appendTo(this.board[i][j].cell); break;
+					$("<span>").addClass("goaltext").text("[ERROR]").appendTo(this.board[i][j].cell); break;
 				}
 			}
 
@@ -323,19 +323,38 @@ Bingo.prototype.processGameData = function(data)
 		if (!data.goals[i].distance) data.goals[i].distance = 0;
 	data.goals.sort(function(a, b){ return a.difficulty - b.difficulty; });
 	
-	var keepnum = Math.round(data.goals.length * Bingo.DIFFICULTY_KEEPSIZE);
+	var maxdiff = Number.POSITIVE_INFINITY, mindiff = Number.NEGATIVE_INFINITY;
+	
+	var bdiffa = data.goals[0].difficulty;
+	var bdiffb = data.goals[data.goals.length - 1].difficulty - bdiffa;
+	
 	switch (this.difficulty)
 	{
 		case -1:
 			// EASY: keep only the easiest goals
-			data.goals = data.goals.slice(0, keepnum);
+			if (data.difficulty && data.difficulty.easymax)
+				maxdiff = +data.difficulty.easymax;
+			else maxdiff = bdiffa + (bdiffb - bdiffa) * Bingo.DIFFICULTY_KEEPSIZE;
 			break;
 			
 		case 1:
 			// HARD: keep only the hardest goals
-			data.goals = data.goals.slice(data.goals.length - keepnum);
+			if (data.difficulty && data.difficulty.hardmin)
+				mindiff = +data.difficulty.hardmin;
+			else mindiff = bdiffa + (bdiffb - bdiffa) * (1 - Bingo.DIFFICULTY_KEEPSIZE);
 			break;
 	}
+	
+	var i1 = null, i2 = null;
+	for (var i = 0; i < data.goals.length; ++i)
+	{
+		if (data.goals[i].difficulty >= mindiff && i1 == null) i1 = i;
+		if (data.goals[i].difficulty >  maxdiff && i2 == null) i2 = i;
+	}
+	
+	if (i1 == null) i1 = 0;
+	if (i2 == null) i2 = data.goals.length;
+	data.goals = data.goals.slice(i1, i2);
 
 	this.maxdifficulty = data.goals[data.goals.length - 1].difficulty;
 	this.mindifficulty = data.goals[0].difficulty;

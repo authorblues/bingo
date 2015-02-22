@@ -136,6 +136,11 @@
 		{ "name": "Fill the dump with trash (Cans, boots, tires)", "difficulty":  7, "tags": ["Challenges"] }
 	],
 	
+	"difficulty": {
+		"easymax": 4,
+		"hardmin": 5
+	},
+	
 	"tags": {
 		"Insects": { "allowmultiple": false, "singleuse": false },
 		"Fish": { "allowmultiple": false, "singleuse": false },
