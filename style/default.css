@@ -80,17 +80,17 @@ body.popout #bingo td.goal
 
 #bingo td.goal:hover, #bingo td.goal.hover
 {
-	background-color: #ddf;
+	background-color: #555565;
 }
 
 #bingo td.goal.yes
 {
-	background-color: #9c9;
+	background-color: #558555;
 }
 
 #bingo td.goal.no
 {
-	background-color: #f99;
+	background-color: #855555;
 }
 
 #bingo td span
