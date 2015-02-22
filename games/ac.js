@@ -12,18 +12,18 @@
 	],
 	
 	"goals": [
-		{ "name": "Catch a Spider", "difficulty":  1, "tags": ["Insects"] },
-		{ "name": "Catch a Giant Beetle", "difficulty":  2, "tags": ["Insects"] },
-		{ "name": "Catch a Bagworm", "difficulty":  3, "tags": ["Insects"] },
+		{ "name": "Catch a Spider", "difficulty":  2, "tags": ["Insects"] },
+		{ "name": "Catch a Giant Beetle", "difficulty":  3, "tags": ["Insects"] },
+		{ "name": "Catch a Bagworm", "difficulty":  4, "tags": ["Insects"] },
 		{ "name": "Catch a Banded Dragonfly", "difficulty":  5, "tags": ["Insects"] },
 		{ "name": "Catch 2 Bees", "difficulty":  3, "tags": ["Insects"] },
 		{ "name": "Catch 5 Snails", "difficulty":  2, "tags": ["Insects"] },
 		{ "name": "Catch all 4 cicada types", "difficulty":  1, "tags": ["Insects"] },
 		{ "name": "Have 20 different insects in your encyclopedia", "difficulty":  3, "tags": ["Insects"] },
 		
-		{ "name": "Catch an Arapaima", "difficulty":  2, "tags": ["Fish"] },
+		{ "name": "Catch an Arapaima", "difficulty":  3, "tags": ["Fish"] },
 		{ "name": "Catch an Arowana", "difficulty":  4, "tags": ["Fish"] },
-		{ "name": "Catch a Piranha", "difficulty":  3, "tags": ["Fish"] },
+		{ "name": "Catch a Piranha", "difficulty":  4, "tags": ["Fish"] },
 		{ "name": "Catch an Angelfish", "difficulty":  5, "tags": ["Fish"] },
 		{ "name": "Catch a Stringfish", "difficulty":  4, "tags": ["Fish"] },
 		{ "name": "Catch 2 Coelacanths", "difficulty":  3, "tags": ["Fish"] },
@@ -44,14 +44,14 @@
 		{ "name": "Get Nook's Portrait from the lottery", "difficulty":  6, "tags": ["Furniture"] },
 		{ "name": "Place a TV in your house", "difficulty":  3, "tags": ["Furniture"] },
 		{ "name": "Place a bonsai in your house", "difficulty":  3, "tags": ["Furniture"] },
-		{ "name": "Place a chess piece in your house", "difficulty":  4, "tags": ["Furniture"] },
+		{ "name": "Place a chess piece in your house", "difficulty":  3, "tags": ["Furniture"] },
 		{ "name": "Place a musical instrument in your house", "difficulty":  3, "tags": ["Furniture"] },
 		{ "name": "Place a seat (Chair, couch, etc.) in your house", "difficulty":  3, "tags": ["Furniture"] },
 		{ "name": "Place a bed in your house", "difficulty":  3, "tags": ["Furniture"] },
-		{ "name": "Place a Nintendo-themed item in your house", "difficulty":  4, "tags": ["Furniture"] },
+		{ "name": "Place a Nintendo-themed item in your house", "difficulty":  3, "tags": ["Furniture"] },
 		{ "name": "Turn on an NES game", "difficulty":  5, "tags": ["Furniture"] },
 		
-		{ "name": "Get an item from the Harvest Series", "difficulty":  1, "tags": ["Holidays"] },
+		{ "name": "Get an item from the Harvest Series", "difficulty":  2, "tags": ["Holidays"] },
 		{ "name": "Get an item from the Spooky Series", "difficulty":  4, "tags": ["Holidays"] },
 		{ "name": "Get an item from the Jingle Series", "difficulty":  3, "tags": ["Holidays"] },
 		{ "name": "Get an item from the Snowman Series", "difficulty":  5, "tags": ["Holidays"] },
@@ -137,8 +137,8 @@
 	],
 	
 	"difficulty": {
-		"easymax": 4,
-		"hardmin": 5
+		"easymax": 5,
+		"hardmin": 4
 	},
 	
 	"tags": {
