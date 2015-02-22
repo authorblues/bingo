@@ -243,6 +243,7 @@ Bingo.DIFFICULTY_TABLE = {
 };
 
 Bingo.DIFFICULTY_PETURBATION = 0.2;
+Bingo.MAXITERATIONS = 100;
 
 Bingo.prototype.generateBoard = function()
 {
@@ -254,7 +255,7 @@ Bingo.prototype.generateBoard = function()
 	for (var i = 0; i < this.size; ++i)
 		for (var j = 0; j < this.size; ++j)
 		{
-			for (;;)
+			for (var xx = 0;; xx++)
 			{
 				var peturbation = this.random.nextGaussian() * Bingo.DIFFICULTY_PETURBATION;
 				base = Math.min(Math.max(0.0, this.magic.square[i][j] + peturbation), 1.0);
@@ -281,6 +282,13 @@ Bingo.prototype.generateBoard = function()
 					for (var k = 0; k < tags.length; ++k) tagdata[tags[k]]['@used'] = true;
 					$("<span>").addClass("goaltext").text(g.name).appendTo(this.board[i][j].cell);
 					gs.splice(x, 1); break;
+				}
+				
+				// safety fallout
+				if (xx > Bingo.MAXITERATIONS)
+				{
+					console.log("Could not find a suitable goal for R" + (i+1) + "xC" + (j+1) + " after " + xx + " iterations");
+					$("<span>").addClass("goaltext").text("# ERROR #").appendTo(this.board[i][j].cell);
 				}
 			}
 
