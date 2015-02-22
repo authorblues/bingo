@@ -344,12 +344,12 @@ Bingo.prototype.processGameData = function(data)
 	delete this.gamedata.modifiers['@required'];
 	$("#game-name").text(data.name);
 	
+	$('#game-rules').toggle(!!data.rules);
 	if (data.rules)
 	{
-		var rulelist = $('<ul>');
+		var rulelist = $('#game-rules ul');
 		for (var i = 0; i < data.rules.length; ++i)
 			rulelist.append($('<li>').text(data.rules[i]));
-		$('#game-rules').html(rulelist);
 	}
 }
 
