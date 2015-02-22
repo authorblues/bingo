@@ -23,6 +23,11 @@ body.popout
 	margin-bottom: 5px;
 }
 
+#button-row
+{
+	margin: 10px auto;
+}
+
 #bingo
 {
 	border-collapse: collapse;
