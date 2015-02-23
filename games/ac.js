@@ -17,7 +17,7 @@
 		{ "name": "Catch a Banded Dragonfly", "difficulty":  5, "tags": ["Insects"] },
 		{ "name": "Catch 2 Bees", "difficulty":  3, "tags": ["Insects"] },
 		{ "name": "Catch 5 Snails", "difficulty":  2, "tags": ["Insects"] },
-		{ "name": "Catch all 4 cicada types", "difficulty":  1, "tags": ["Insects"] },
+		{ "name": "Catch all 4 types of cicadas", "difficulty":  1, "tags": ["Insects"] },
 		{ "name": "Have 20 different insects in your encyclopedia", "difficulty":  3, "tags": ["Insects"] },
 		
 		{ "name": "Catch an Arapaima", "difficulty":  4, "tags": ["Fish"] },
@@ -26,7 +26,7 @@
 		{ "name": "Catch an Angelfish", "difficulty":  5, "tags": ["Fish"] },
 		{ "name": "Catch a Stringfish", "difficulty":  4, "tags": ["Fish"] },
 		{ "name": "Catch 2 Coelacanths", "difficulty":  3, "tags": ["Fish"] },
-		{ "name": "Catch all 4 bass types", "difficulty":  1, "tags": ["Fish"] },
+		{ "name": "Catch all 4 types of bass", "difficulty":  1, "tags": ["Fish"] },
 		{ "name": "Have 20 different fish in your encyclopedia", "difficulty":  4, "tags": ["Fish"] },
 		
 		{ "name": "Get an item from the Blue Series", "difficulty":  2, "tags": ["Furniture"] },
@@ -69,6 +69,7 @@
 		{ "name": "Complete the Morning Aerobics", "difficulty":  7, "tags": ["Events"] },
 		{ "name": "Get the birthday cake on your birthday", "difficulty":  1, "tags": ["Events"] },
 		
+		{ "name": "Get a lottery ticket for every month", "difficulty":  3, "tags": ["Tasks"] },
 		{ "name": "Kill 7 cockroaches in your house", "difficulty":  1, "tags": ["Tasks"] },
 		{ "name": "Open a present from a balloon", "difficulty":  4, "tags": ["Tasks"] },
 		{ "name": "Draw a pattern at the Able Sisters", "difficulty":  1, "tags": ["Tasks"] },
@@ -108,6 +109,7 @@
 		{ "name": "Eat a mushroom", "difficulty":  1, "tags": ["Nature"] },
 		{ "name": "Fill your inventory with seashells", "difficulty":  1, "tags": ["Nature"] },
 		{ "name": "Grow a non-native fruit tree", "difficulty":  4, "tags": ["Nature"] },
+		{ "name": "Grow one of every type of fruit tree (Excluding coconuts)", "difficulty":  7, "tags": ["Nature"] },
 		{ "name": "See a rainbow over the waterfall", "difficulty":  2, "tags": ["Nature"] },
 		{ "name": "Spin an umbrella in the rain", "difficulty":  2, "tags": ["Nature"] },
 		{ "name": "Plant a flower in every acre", "difficulty":  3, "tags": ["Nature"] },
@@ -124,15 +126,15 @@
 		{ "name": "Make a villager fall into a pitfall", "difficulty":  3, "tags": ["Digging"] },
 		{ "name": "Get at least 6 bell bags from one money rock", "difficulty":  2, "tags": ["Digging"] },
 		
-		{ "name": "Get over 25k HRA points", "difficulty":  5, "tags": ["HRA"] },
+		{ "name": "Get over 25k HRA points", "difficulty":  4, "tags": ["HRA"] },
 		{ "name": "Get over 50k HRA points", "difficulty":  6, "tags": ["HRA"] },
-		{ "name": "Get over 75k HRA points", "difficulty":  7, "tags": ["HRA"] },
-		{ "name": "Get over 100k HRA points", "difficulty":  8, "tags": ["HRA"] },
+		{ "name": "Get over 75k HRA points", "difficulty":  8, "tags": ["HRA"] },
+		{ "name": "Get over 100k HRA points", "difficulty":  10, "tags": ["HRA"] },
 		
 		{ "name": "Get a reward from Wisp", "difficulty":  7, "tags": ["Challenges"] },
 		{ "name": "Get the DUMMY item", "difficulty":  9, "tags": ["Challenges"] },
 		{ "name": "Listen to a song from Kapp'n", "difficulty":  10, "tags": ["Challenges"] },
-		{ "name": "Fill the dump with trash (Cans, boots, tires)", "difficulty":  7, "tags": ["Challenges"] }
+		{ "name": "Fill the dump with trash (Cans, boots, tires)", "difficulty":  8, "tags": ["Challenges"] }
 	],
 	
 	"difficulty": {
