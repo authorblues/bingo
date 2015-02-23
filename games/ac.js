@@ -7,7 +7,6 @@
 		"You are not allowed to use a Gameboy Advance, e-Reader, or other accessories.",
 		"You are not allowed to use Tom Nook codes for anything except a modern table and standard tools.",
 		"You are not allowed to use any pre-existing data, including towns, saved letters, etc.",
-		"You are not allowed to have multiple towns.",
 		"You are allowed to use glitches like the Walk on Table glitch and Ocean Snowball OoB glitch."
 	],
 	
@@ -21,9 +20,9 @@
 		{ "name": "Catch all 4 cicada types", "difficulty":  1, "tags": ["Insects"] },
 		{ "name": "Have 20 different insects in your encyclopedia", "difficulty":  3, "tags": ["Insects"] },
 		
-		{ "name": "Catch an Arapaima", "difficulty":  3, "tags": ["Fish"] },
-		{ "name": "Catch an Arowana", "difficulty":  4, "tags": ["Fish"] },
-		{ "name": "Catch a Piranha", "difficulty":  4, "tags": ["Fish"] },
+		{ "name": "Catch an Arapaima", "difficulty":  4, "tags": ["Fish"] },
+		{ "name": "Catch an Arowana", "difficulty":  5, "tags": ["Fish"] },
+		{ "name": "Catch a Piranha", "difficulty":  5, "tags": ["Fish"] },
 		{ "name": "Catch an Angelfish", "difficulty":  5, "tags": ["Fish"] },
 		{ "name": "Catch a Stringfish", "difficulty":  4, "tags": ["Fish"] },
 		{ "name": "Catch 2 Coelacanths", "difficulty":  3, "tags": ["Fish"] },
@@ -66,7 +65,7 @@
 		{ "name": "Get a Station Model from your Hometown Day", "difficulty":  1, "tags": ["Events"] },
 		{ "name": "Win an item from the Summer Fishing Tourney", "difficulty":  2, "tags": ["Events"] },
 		{ "name": "Win an item from the Autumn Fishing Tourney", "difficulty":  2, "tags": ["Events"] },
-		{ "name": "Get the Miniature Car and Dolly from Toy Day", "difficulty":  3, "tags": ["Events"] },
+		{ "name": "Get the Miniature Car and Dolly from Toy Day", "difficulty":  5, "tags": ["Events"] },
 		{ "name": "Complete the Morning Aerobics", "difficulty":  7, "tags": ["Events"] },
 		{ "name": "Get the birthday cake on your birthday", "difficulty":  1, "tags": ["Events"] },
 		
@@ -91,8 +90,8 @@
 		{ "name": "Complete 5 villager chores", "difficulty":  1, "tags": ["Villagers"] },
 		{ "name": "Win an item from a Summer Camper", "difficulty":  3, "tags": ["Villagers"] },
 		{ "name": "Win an item from an Igloo villager", "difficulty":  3, "tags": ["Villagers"] },
-		{ "name": "Change a villager's catchphrase", "difficulty":  5, "tags": ["Villagers"] },
-		{ "name": "Complete Nook's chores with a 2nd character", "difficulty":  3, "tags": ["Villagers"] },
+		{ "name": "Change a villager's catchphrase", "difficulty":  4, "tags": ["Villagers"] },
+		{ "name": "Complete Nook's chores with a 2nd character", "difficulty":  5, "tags": ["Villagers"] },
 		{ "name": "Send a letter to 5 different villagers", "difficulty":  1, "tags": ["Villagers"] },
 		
 		{ "name": "Have Resetti fake reset your game", "difficulty":  1, "tags": ["Special Characters"] },
