@@ -137,8 +137,8 @@
 	],
 	
 	"difficulty": {
-		"easymax": 5,
-		"hardmin": 4
+		"easymax": 4,
+		"hardmin": 5
 	},
 	
 	"tags": {
