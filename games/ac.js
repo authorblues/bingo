@@ -70,6 +70,8 @@
 		{ "name": "Complete the Morning Aerobics", "difficulty":  7, "tags": ["Events"] },
 		{ "name": "Get the birthday cake on your birthday", "difficulty":  1, "tags": ["Events"] },
 		
+		{ "name": "See a rainbow over the waterfall", "difficulty":  2, "tags": ["Tasks"] },
+		{ "name": "Spin an umbrella in the rain", "difficulty":  2, "tags": ["Tasks"] },
 		{ "name": "Get a lottery ticket for every month", "difficulty":  3, "tags": ["Tasks"] },
 		{ "name": "Kill 7 cockroaches in your house", "difficulty":  1, "tags": ["Tasks"] },
 		{ "name": "Open a present from a balloon", "difficulty":  4, "tags": ["Tasks"] },
@@ -111,8 +113,6 @@
 		{ "name": "Fill your inventory with seashells", "difficulty":  1, "tags": ["Nature"] },
 		{ "name": "Grow a non-native fruit tree", "difficulty":  4, "tags": ["Nature"] },
 		{ "name": "Grow one of every type of fruit tree (Excluding coconuts)", "difficulty":  7, "tags": ["Nature"] },
-		{ "name": "See a rainbow over the waterfall", "difficulty":  2, "tags": ["Nature"] },
-		{ "name": "Spin an umbrella in the rain", "difficulty":  2, "tags": ["Nature"] },
 		{ "name": "Plant a flower in every acre", "difficulty":  3, "tags": ["Nature"] },
 		{ "name": "Pick 25 weeds in a single day", "difficulty":  1, "tags": ["Nature"] },
 		{ "name": "Get 2 pieces of furniture from shaking trees", "difficulty":  2, "tags": ["Nature"] },
