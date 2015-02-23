@@ -82,9 +82,9 @@
 		
 		{ "name": "Pay off your 1st debt", "difficulty":  1, "tags": ["Debts"] },
 		{ "name": "Pay off your 2nd debt", "difficulty":  2, "tags": ["Debts"] },
-		{ "name": "Pay off your 3rd debt", "difficulty":  2, "tags": ["Debts"] },
-		{ "name": "Pay off your 4th debt", "difficulty":  3, "tags": ["Debts"] },
-		{ "name": "Pay off your final debt", "difficulty":  4, "tags": ["Debts"] },
+		{ "name": "Pay off your 3rd debt", "difficulty":  3, "tags": ["Debts"] },
+		{ "name": "Pay off your 4th debt", "difficulty":  4, "tags": ["Debts"] },
+		{ "name": "Pay off your final debt", "difficulty":  5, "tags": ["Debts"] },
 		{ "name": "Get the tissues", "difficulty":  6, "tags": ["Debts"] },
 		
 		{ "name": "Apologize to the Wishing Well 10 times", "difficulty":  2, "tags": ["Villagers"] },
@@ -137,7 +137,7 @@
 	],
 	
 	"difficulty": {
-		"easymax": 4,
+		"easymax": 3,
 		"hardmin": 5
 	},
 	
