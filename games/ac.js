@@ -151,7 +151,7 @@
 		"Holidays": { "allowmultiple": false, "singleuse": false },
 		"Random Events": { "allowmultiple": false, "singleuse": false },
 		"Events": { "allowmultiple": false, "singleuse": false },
-		"Tasks": { "allowmultiple": false, "singleuse": false },
+		"Tasks": { "allowmultiple": true, "singleuse": false },
 		"Debts": { "allowmultiple": false, "singleuse": false },
 		"Villagers": { "allowmultiple": false, "singleuse": false },
 		"Special Characters": { "allowmultiple": false, "singleuse": false },
