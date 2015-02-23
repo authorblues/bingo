@@ -186,7 +186,7 @@ function Bingo(game, size, seed, difficulty, balance)
 
 	// add the table to the screen now
 	$("#bingo-container").empty().append(table);
-	$("#bingo td.goal").width(120).height(120).click(function(e)
+	$("#bingo td.goal").click(function(e)
 	{
 		var c = $(this).data('cell-data');
 		c.state = (c.state + 1) % 3;
@@ -194,6 +194,12 @@ function Bingo(game, size, seed, difficulty, balance)
 		var cell = c.cell;
 		cell.removeClass("yes no").addClass([null, "yes", "no"][c.state]);
 	});
+	
+	setTimeout(function()
+	{
+		var goals = $("#bingo td.goal");
+		goals.height(goals.width());
+	}, 1);
 
 	$("#bingo td.header").hover(
 		function() { $("#bingo td.goal." + $(this).attr("data-type")).addClass("hover"); }, 
