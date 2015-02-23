@@ -197,12 +197,9 @@ function Bingo(game, size, seed, difficulty, balance)
 	
 	setTimeout(function()
 	{
-		for (var i = 0; i < 10; ++i)
-		{
-			var col1w = $('#bingo td.header[data-type="diag1"]').width();
-			var sz = ($('#bingo').width() - col1w) / 5;
-			$("#bingo td.goal").outerWidth(sz).outerHeight(sz);
-		}
+		var col1w = $('#bingo td.header[data-type="diag1"]').width();
+		var sz = ($('#bingo-container').innerWidth() - col1w) / 5;
+		$("#bingo td.goal").outerWidth(sz).outerHeight(sz);
 	},
 	1);
 
