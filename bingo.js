@@ -195,14 +195,6 @@ function Bingo(game, size, seed, difficulty, balance)
 		cell.removeClass("yes no").addClass([null, "yes", "no"][c.state]);
 	});
 	
-	setTimeout(function()
-	{
-		var col1w = $('#bingo td.header[data-type="diag1"]').width();
-		var sz = ($('#bingo-container').innerWidth() - col1w) / 5;
-		$("#bingo td.goal").outerWidth(sz).outerHeight(sz);
-	},
-	1);
-
 	$("#bingo td.header").hover(
 		function() { $("#bingo td.goal." + $(this).attr("data-type")).addClass("hover"); }, 
 		function() { $("#bingo td.goal." + $(this).attr("data-type")).removeClass("hover"); }
@@ -236,6 +228,11 @@ function Bingo(game, size, seed, difficulty, balance)
 			};
 		})($(this).text(), tds), false);
 	});
+
+	// resize this mess
+	var col1w = $('#bingo td.header[data-type="diag1"]').width();
+	var sz = ($('#bingo-container').innerWidth() * .9 - col1w) / 5;
+	$("#bingo td.goal").outerWidth(sz).outerHeight(sz);
 }
 
 Bingo.DIFFICULTY_TABLE = {

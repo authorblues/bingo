@@ -54,6 +54,11 @@ body.popout #bingo
 	padding-left: 20px;
 }
 
+#bingo
+{
+	float: right;
+}
+
 #bingo td
 {
 	border: 1px solid black;
@@ -66,6 +71,11 @@ body.popout #bingo
 	font-size: 10pt;
 	padding: 5px;
 	cursor: pointer;
+}
+
+#bingo td.header[data-type="diag1"]
+{
+	width: 0;
 }
 
 body.popout #bingo td.header
