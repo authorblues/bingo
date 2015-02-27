@@ -7,7 +7,7 @@
 		"You are not allowed to use a Gameboy Advance, e-Reader, or other accessories.",
 		"You are not allowed to use Tom Nook codes for anything except a modern table and standard tools.",
 		"You are not allowed to use any pre-existing data, including towns, saved letters, etc.",
-		"You are allowed to use glitches like the Walk on Table glitch and Ocean Snowball OoB glitch."
+		"You are allowed to use glitches like the Walk on Table glitch and Snowball OoB glitch."
 	],
 	
 	"goals": [
@@ -29,17 +29,17 @@
 		{ "name": "Catch all 4 types of bass", "difficulty":  1, "tags": ["Fish"] },
 		{ "name": "Have 20 different fish in your encyclopedia", "difficulty":  4, "tags": ["Fish"] },
 		
-		{ "name": "Get an item from the Blue Series", "difficulty":  2, "tags": ["Series"] },
-		{ "name": "Get an item from the Cabana Series", "difficulty":  2, "tags": ["Series"] },
-		{ "name": "Get an item from the Cabin Series", "difficulty":  2, "tags": ["Series"] },
-		{ "name": "Get an item from the Classic Series", "difficulty":  2, "tags": ["Series"] },
-		{ "name": "Get an item from the Exotic Series", "difficulty":  2, "tags": ["Series"] },
-		{ "name": "Get an item from the Green Series", "difficulty":  2, "tags": ["Series"] },
-		{ "name": "Get an item from the Kiddie Series", "difficulty":  2, "tags": ["Series"] },
-		{ "name": "Get an item from the Lovely Series", "difficulty":  2, "tags": ["Series"] },
-		{ "name": "Get an item from the Modern Series", "difficulty":  2, "tags": ["Series"] },
-		{ "name": "Get an item from the Ranch Series", "difficulty":  2, "tags": ["Series"] },
-		{ "name": "Get an item from the Regal Series", "difficulty":  2, "tags": ["Series"] },
+		{ "name": "Get an item from the Blue Series", "difficulty":  3, "tags": ["Series"] },
+		{ "name": "Get an item from the Cabana Series", "difficulty":  3, "tags": ["Series"] },
+		{ "name": "Get an item from the Cabin Series", "difficulty":  3, "tags": ["Series"] },
+		{ "name": "Get an item from the Classic Series", "difficulty":  3, "tags": ["Series"] },
+		{ "name": "Get an item from the Exotic Series", "difficulty":  4, "tags": ["Series"] },
+		{ "name": "Get an item from the Green Series", "difficulty":  3, "tags": ["Series"] },
+		{ "name": "Get an item from the Kiddie Series", "difficulty":  3, "tags": ["Series"] },
+		{ "name": "Get an item from the Lovely Series", "difficulty":  4, "tags": ["Series"] },
+		{ "name": "Get an item from the Modern Series", "difficulty":  4, "tags": ["Series"] },
+		{ "name": "Get an item from the Ranch Series", "difficulty":  3, "tags": ["Series"] },
+		{ "name": "Get an item from the Regal Series", "difficulty":  4, "tags": ["Series"] },
 		
 		{ "name": "Get Nook's Portrait from the lottery", "difficulty":  6, "tags": ["Furniture"] },
 		{ "name": "Place a TV in your house", "difficulty":  3, "tags": ["Furniture"] },
@@ -49,7 +49,7 @@
 		{ "name": "Place a seat (Chair, couch, etc.) in your house", "difficulty":  3, "tags": ["Furniture"] },
 		{ "name": "Place a bed in your house", "difficulty":  3, "tags": ["Furniture"] },
 		{ "name": "Place a Nintendo-themed item in your house", "difficulty":  4, "tags": ["Furniture"] },
-		{ "name": "Turn on an NES game", "difficulty":  5, "tags": ["Furniture"] },
+		{ "name": "Turn on an NES game", "difficulty":  6, "tags": ["Furniture"] },
 		
 		{ "name": "Get an item from the Harvest Series", "difficulty":  2, "tags": ["Holidays"] },
 		{ "name": "Get an item from the Spooky Series", "difficulty":  5, "tags": ["Holidays"] },
@@ -70,7 +70,7 @@
 		{ "name": "Complete the Morning Aerobics", "difficulty":  7, "tags": ["Events"] },
 		{ "name": "Get the birthday cake on your birthday", "difficulty":  1, "tags": ["Events"] },
 		
-		{ "name": "See a rainbow over the waterfall", "difficulty":  2, "tags": ["Tasks"] },
+		{ "name": "See a rainbow over the waterfall", "difficulty":  1, "tags": ["Tasks"] },
 		{ "name": "Spin an umbrella in the rain", "difficulty":  2, "tags": ["Tasks"] },
 		{ "name": "Get a lottery ticket for every month", "difficulty":  3, "tags": ["Tasks"] },
 		{ "name": "Kill 7 cockroaches in your house", "difficulty":  1, "tags": ["Tasks"] },
@@ -106,8 +106,8 @@
 		
 		{ "name": "Get the Golden Shovel", "difficulty":  5, "tags": ["Tools"] },
 		{ "name": "Get the Golden Axe", "difficulty":  7, "tags": ["Tools"] },
-		{ "name": "Get the Golden Net", "difficulty":  8, "tags": ["Tools"] },
-		{ "name": "Get the Golden Rod", "difficulty":  9, "tags": ["Tools"] },
+		{ "name": "Get the Golden Net", "difficulty":  9, "tags": ["Tools"] },
+		{ "name": "Get the Golden Rod", "difficulty":  10, "tags": ["Tools"] },
 		
 		{ "name": "Eat a mushroom", "difficulty":  1, "tags": ["Nature"] },
 		{ "name": "Fill your inventory with seashells", "difficulty":  1, "tags": ["Nature"] },
@@ -135,7 +135,7 @@
 		{ "name": "Get a reward from Wisp", "difficulty":  7, "tags": ["Challenges"] },
 		{ "name": "Get the DUMMY item", "difficulty":  9, "tags": ["Challenges"] },
 		{ "name": "Listen to a song from Kapp'n", "difficulty":  10, "tags": ["Challenges"] },
-		{ "name": "Fill the dump with trash (Cans, boots, tires)", "difficulty":  8, "tags": ["Challenges"] }
+		{ "name": "Fill the dump with trash (Cans, boots, tires)", "difficulty":  9, "tags": ["Challenges"] }
 	],
 	
 	"difficulty": {
