@@ -255,6 +255,8 @@ Bingo.prototype.generateBoard = function()
 	var m, ms = this.gamedata.modifiers || {};
 	var tagdata = this.gamedata.tags;
 
+	var usedgoals = [];
+
 	var range = this.maxdifficulty - this.mindifficulty;
 	for (var i = 0; i < this.size; ++i)
 		for (var j = 0; j < this.size; ++j)
@@ -298,10 +300,9 @@ Bingo.prototype.generateBoard = function()
 				if (valid)
 				{
 					usedgoals.push(g.id);
-					IDS_USED[g.id] = (IDS_USED[g.id] || 0) + 1; // XXX
-
 					for (var k = 0; k < tags.length; ++k) tagdata[tags[k]]['@used'] = true;
-					$("<span>").addClass("goaltext").text(g.name).appendTo(this.board[i][j].cell);
+					$("<span>").addClass("goaltext").text(g.name)
+						.appendTo(this.board[i][j].cell);
 					gs.splice(x, 1); break;
 				}
 				
