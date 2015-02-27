@@ -262,18 +262,26 @@ Bingo.prototype.generateBoard = function()
 			for (var xx = 0;; xx++)
 			{
 				// failsafe: widen search space after 25 iterations
-				var peturbation = this.random.nextGaussian() * (xx < 25 ? Bingo.DIFFICULTY_PETURBATION : 1.0);
-				
+				var peturbation = this.random.nextGaussian() * Bingo.DIFFICULTY_PETURBATION;
 				base = Math.min(Math.max(0.0, this.magic.square[i][j] + peturbation), 1.0);
-				x = gs.bsearch(base * range + this.mindifficulty, function(x){ return x.difficulty; });
+				var ddiff = xx < 25 ? (base * range) : this.random.nextInt(range);
+				
+				x = gs.bsearch(ddiff + this.mindifficulty, function(x){ return x.difficulty; });
+				if (x >= gs.length) x = gs.length - 1;
+
+				var x1, x2;
+				for (x1 = x; x1 > 0             && gs[x1-1].difficulty == gs[x1].difficulty; --x1);
+				for (x2 = x; x2 < gs.length - 1 && gs[x2+1].difficulty == gs[x2].difficulty; ++x2);
+				x = x1 + this.random.nextInt(x2 - x1);
 
 				g = this.board[i][j].goal = gs[x]; if (!g) continue;
-				var vmods = ms["*"] || [], tags = g.tags || [], valid = true;
+				var vmods = ms["*"] || [], tags = g.tags || [], valid = !usedgoals.contains(g.id);
 
 				for (var k = 0; k < tags.length; ++k)
 				{
 					var negated = tags[k].charAt(0) == "-" ? tags[k].substr(1) : ("-" + tags[k]);
-					var tdata = tagdata[tags[k]], allowmult = tdata && tdata.allowmultiple !== undefined ? tdata.allowmultiple : false;
+					var tdata = tagdata[tags[k]], allowmult = tdata && 
+						tdata.allowmultiple !== undefined ? tdata.allowmultiple : false;
 					
 					// failsafe: after 50 iterations, don't constrain on allowmultiple tags
 					if (xx > 50) allowmult = true;
@@ -289,6 +297,9 @@ Bingo.prototype.generateBoard = function()
 
 				if (valid)
 				{
+					usedgoals.push(g.id);
+					IDS_USED[g.id] = (IDS_USED[g.id] || 0) + 1; // XXX
+
 					for (var k = 0; k < tags.length; ++k) tagdata[tags[k]]['@used'] = true;
 					$("<span>").addClass("goaltext").text(g.name).appendTo(this.board[i][j].cell);
 					gs.splice(x, 1); break;
@@ -331,7 +342,10 @@ Bingo.prototype.processGameData = function(data)
 	}
 	
 	for (var i = 0; i < data.goals.length; ++i)
+	{
 		if (!data.goals[i].distance) data.goals[i].distance = 0;
+		data.goals[i].id = i;
+	}
 	data.goals.sort(function(a, b){ return a.difficulty - b.difficulty; });
 	
 	var maxdiff = Number.POSITIVE_INFINITY, mindiff = Number.NEGATIVE_INFINITY;
@@ -433,6 +447,8 @@ function regenerateBoard()
 
 	BINGO = new Bingo(game, 5, seed, difficulty);
 }
+
+var IDS_USED = {};
 
 function setDifficulty(diff)
 {
