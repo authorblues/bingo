@@ -147,7 +147,7 @@ body.popout #bingo td.goal
 #bingo td span
 {
 	display: block;
-	font-size: 10pt;
+	font-size: 8pt;
 }
 
 /*#bingo td span.goaltext
@@ -157,6 +157,6 @@ body.popout #bingo td.goal
 
 #bingo td span.modtext
 {
-	font-size: 8pt;
+	font-size: 6pt;
 	color: #ADADAD;
 }

@@ -279,11 +279,15 @@ Bingo.prototype.generateBoard = function()
 				g = this.board[i][j].goal = gs[x]; if (!g) continue;
 				var vmods = ms["*"] || [], tags = g.tags || [], valid = !usedgoals.contains(g.id);
 
+				var img = null;
 				for (var k = 0; k < tags.length; ++k)
 				{
 					var negated = tags[k].charAt(0) == "-" ? tags[k].substr(1) : ("-" + tags[k]);
 					var tdata = tagdata[tags[k]], allowmult = tdata && 
 						tdata.allowmultiple !== undefined ? tdata.allowmultiple : false;
+						
+					// get the image
+					if (!img && tags[k].charAt(0) != '-' && tdata.image) img = tdata.image;
 					
 					// failsafe: after 50 iterations, don't constrain on allowmultiple tags
 					if (xx > 50) allowmult = true;
@@ -299,10 +303,11 @@ Bingo.prototype.generateBoard = function()
 
 				if (valid)
 				{
+					var cell = this.board[i][j].cell;
 					usedgoals.push(g.id);
+					if (img) $('<img>').attr('src', img).appendTo(cell);
 					for (var k = 0; k < tags.length; ++k) tagdata[tags[k]]['@used'] = true;
-					$("<span>").addClass("goaltext").text(g.name)
-						.appendTo(this.board[i][j].cell);
+					$("<span>").addClass("goaltext").text(g.name).appendTo(cell);
 					gs.splice(x, 1); break;
 				}
 				
@@ -368,6 +373,7 @@ Bingo.prototype.processGameData = function(data)
 			if (data.difficulty && data.difficulty.hardmin)
 				mindiff = +data.difficulty.hardmin;
 			else mindiff = bdiffa + (bdiffb - bdiffa) * (1 - Bingo.DIFFICULTY_KEEPSIZE);
+			else mindiff = bdiffa + bdiffb * (1 - Bingo.DIFFICULTY_KEEPSIZE);
 			break;
 	}
 	
