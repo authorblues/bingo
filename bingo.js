@@ -290,7 +290,7 @@ Bingo.prototype.generateBoard = function()
 						tdata.allowmultiple !== undefined ? tdata.allowmultiple : false;
 						
 					// get the image
-					if (!img && tags[k].charAt(0) != '-' && tdata.image) img = tdata.image;
+					if (!img && tags[k].charAt(0) != '-' && tdata && tdata.image) img = tdata.image;
 					
 					// failsafe: after 50 iterations, don't constrain on allowmultiple tags
 					if (xx > 50) allowmult = true;
