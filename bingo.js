@@ -1,5 +1,6 @@
 var GAME_DATA_EXTENSION = ".js";
 var BINGO = null;
+var LARGE_CARD = false;
 
 function Random(seed)
 { this.seed = seed || +new Date(); }
@@ -132,6 +133,8 @@ function Bingo(game, size, seed, difficulty, balance)
 	var board = this.board = [];
 	var table = this.table = $("<table id='bingo'>");
 	this.size = size;
+	
+	table.toggleClass('large', LARGE_CARD);
 
 	// make a magic square for the board difficulty
 	this.magic = new MagicSquare(size, this.random);
@@ -430,6 +433,12 @@ function regenerateBoard()
 	var hash = location.hash.slice(1);
 	var parts = hash.split("/");
 	var seed, game;
+	
+	$('#bingo-container').toggleClass('col-md-5', !LARGE_CARD);
+	$('#bingo-container').toggleClass('col-md-6',  LARGE_CARD);
+	
+	$('#about-panel').toggleClass('col-md-5', !LARGE_CARD);
+	$('#about-panel').toggleClass('col-md-4',  LARGE_CARD);
 
 	// remove trailing empty hash parts
 	while (parts.length && !parts[parts.length - 1]) parts.pop();
@@ -462,14 +471,14 @@ function regenerateBoard()
 	BINGO = new Bingo(game, 5, seed, difficulty);
 }
 
-var IDS_USED = {};
-
 function setDifficulty(diff)
 {
+	var size = LARGE_CARD ? "!!" : "!";
+	
 	// set the location hash properly, everything else should take care of itself
 	var lvl = diff && diff.length ? ("/" + diff) : "";
 	var seed = Math.floor(Math.random() * 60466176).toString(36);
-	location.hash = "#!/" + BINGO.game + "/" + seed + lvl;
+	location.hash = "#" + size + "/" + BINGO.game + "/" + seed + lvl;
 }
 
 $('button.set-diff').click(function(e) { setDifficulty($(this).attr('data-diff')); });
@@ -477,3 +486,11 @@ $('button.set-diff').click(function(e) { setDifficulty($(this).attr('data-diff')
 window.onhashchange = regenerateBoard;
 if (location.hash && location.hash.indexOf("#!") === 0)
 	regenerateBoard();
+
+function updateBoardSize()
+{
+	LARGE_CARD = $('#large-card').is(':checked');
+	regenerateBoard();
+};
+
+$('#large-card').prop('checked', LARGE_CARD).change(updateBoardSize);

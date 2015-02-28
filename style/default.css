@@ -150,6 +150,11 @@ body.popout #bingo td.goal
 	font-size: 8pt;
 }
 
+#bingo.large td span
+{
+	font-size: 10pt;
+}
+
 /*#bingo td span.goaltext
 {
 	font-weight: bold;
@@ -159,4 +164,9 @@ body.popout #bingo td.goal
 {
 	font-size: 6pt;
 	color: #ADADAD;
+}
+
+#bingo.large td span.modtext
+{
+	font-size: 8pt;
 }
