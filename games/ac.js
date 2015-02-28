@@ -8,22 +8,8 @@
 		"You are not allowed to use Tom Nook codes for anything except a modern table and standard tools.",
 		"You are not allowed to use any pre-existing data, including towns, saved letters, etc.",
 		"You are allowed to use glitches like the Walk on Table glitch and Snowball OoB glitch.",
-		"You can use the following codes if you name both your player and town name '!' without the ''.",
-		"Net:",
-		"UVKiAQVjuAo2%n",
-		"ST&LFZXWpfXevo",
-		"Fishing Rod:",
-		"5lZqsiMwf7%iXQ",
-		"I7GRvKrNMLLCqG",
-		"Shovel:",
-		"UVdiAJgjF#o2fn",
-		"STILJzXWpEqKVo",
-		"Axe:",
-		"O%ni@btU55RbYd",
-		"sfsAIg@MtNxveP",
-		"Modern Table:",
-		"AlinktothepasT",
-		"#linkgothepasT"
+		"The following Pastebin has a list of codes you can use if your player and town name are both '!':",
+		"http://pastebin.com/4dRb9C7M"
 	],
 	
 	"goals": [
