@@ -249,6 +249,12 @@ Bingo.DIFFICULTY_TABLE = {
 	'd': 1,
 };
 
+function difficulty_sort(a, b)
+{
+	var c = a.difficulty - b.difficulty;
+	return c == 0 ? a.id - b.id : c;
+}
+
 Bingo.DIFFICULTY_PETURBATION = 0.2;
 Bingo.MAXITERATIONS = 200;
 
@@ -328,7 +334,7 @@ Bingo.prototype.generateBoard = function()
 				for (var z = 0; z < this.board[i][j].groups.length; ++z)
 					this.board[i][j].groups[z].push(tags[k]);
 			}
-			vmods.sort(function(a, b){ return a.difficulty - b.difficulty; });
+			vmods.sort(difficulty_sort);
 
 			if (vmods.length && (this.modrequired || this.random.nextFloat() < 0.25))
 			{
@@ -355,7 +361,7 @@ Bingo.prototype.processGameData = function(data)
 		if (!data.goals[i].distance) data.goals[i].distance = 0;
 		data.goals[i].id = i;
 	}
-	data.goals.sort(function(a, b){ return a.difficulty - b.difficulty; });
+	data.goals.sort(difficulty_sort);
 	
 	var maxdiff = Number.POSITIVE_INFINITY, mindiff = Number.NEGATIVE_INFINITY;
 	
