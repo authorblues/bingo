@@ -46,8 +46,6 @@
 		{ "name": "Place a bonsai in your house", "difficulty":  3, "tags": ["Furniture"] },
 		{ "name": "Place a chess piece in your house", "difficulty":  4, "tags": ["Furniture"] },
 		{ "name": "Place a musical instrument in your house", "difficulty":  3, "tags": ["Furniture"] },
-		{ "name": "Place a seat (Chair, couch, etc.) in your house", "difficulty":  3, "tags": ["Furniture"] },
-		{ "name": "Place a bed in your house", "difficulty":  3, "tags": ["Furniture"] },
 		{ "name": "Place a Nintendo-themed item in your house", "difficulty":  4, "tags": ["Furniture"] },
 		{ "name": "Turn on an NES game", "difficulty":  6, "tags": ["Furniture"] },
 		
