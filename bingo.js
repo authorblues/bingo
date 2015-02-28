@@ -365,14 +365,21 @@ Bingo.prototype.processGameData = function(data)
 			// EASY: keep only the easiest goals
 			if (data.difficulty && data.difficulty.easymax)
 				maxdiff = +data.difficulty.easymax;
-			else maxdiff = bdiffa + (bdiffb - bdiffa) * Bingo.DIFFICULTY_KEEPSIZE;
+			else maxdiff = bdiffa + bdiffb * Bingo.DIFFICULTY_KEEPSIZE;
+			break;
+			
+		case 0:
+			// NORMAL: check to see if a range is provided
+			if (data.difficulty && data.difficulty.normmax)
+				maxdiff = +data.difficulty.normmax;
+			if (data.difficulty && data.difficulty.normmin)
+				mindiff = +data.difficulty.normmin;
 			break;
 			
 		case 1:
 			// HARD: keep only the hardest goals
 			if (data.difficulty && data.difficulty.hardmin)
 				mindiff = +data.difficulty.hardmin;
-			else mindiff = bdiffa + (bdiffb - bdiffa) * (1 - Bingo.DIFFICULTY_KEEPSIZE);
 			else mindiff = bdiffa + bdiffb * (1 - Bingo.DIFFICULTY_KEEPSIZE);
 			break;
 	}

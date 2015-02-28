@@ -138,6 +138,8 @@
 	
 	"difficulty": {
 		"easymax": 3,
+		"normmin": 3,
+		"normmax": 7,
 		"hardmin": 5
 	},
 	
