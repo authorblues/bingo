@@ -426,7 +426,7 @@ Bingo.prototype.processGameData = function(data)
 		var rulelist = $('#game-rules ul');
 		$('li.game-gen', rulelist).remove();
 		for (var i = 0; i < data.rules.length; ++i)
-			rulelist.append($('<li>').addClass('game-gen').text(data.rules[i]));
+			rulelist.append($('<li>').addClass('game-gen').html(data.rules[i]));
 	}
 	
 	$('#bingo-attrib').toggle(!!data.author);
