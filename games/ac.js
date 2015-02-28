@@ -72,7 +72,7 @@
 		
 		{ "name": "Get an item from Gulliver", "difficulty":  3, "tags": ["Random Events"] },
 		{ "name": "Get a wallpaper from Wendell", "difficulty":  2, "tags": ["Random Events"] },
-		{ "name": "Get a carpet from Sahara", "difficulty":  2, "tags": ["Random Events"] },
+		{ "name": "Get a carpet from Saharah", "difficulty":  2, "tags": ["Random Events"] },
 		{ "name": "Get a shirt from Gracie", "difficulty":  4, "tags": ["Random Events"] },
 		
 		{ "name": "Open 5 grab bags from Sale Day", "difficulty":  3, "tags": ["Events"] },
@@ -85,7 +85,7 @@
 		{ "name": "Get the birthday cake on your birthday", "difficulty":  1, "tags": ["Events"] },
 		
 		{ "name": "See a rainbow over the waterfall", "difficulty":  1, "tags": ["Tasks"] },
-		{ "name": "Spin an umbrella in the rain", "difficulty":  2, "tags": ["Tasks"] },
+		{ "name": "Spin a store-bought umbrella in the rain", "difficulty":  1, "tags": ["Tasks"] },
 		{ "name": "Get a lottery ticket for every month", "difficulty":  3, "tags": ["Tasks"] },
 		{ "name": "Kill 7 cockroaches in your house", "difficulty":  1, "tags": ["Tasks"] },
 		{ "name": "Open a present from a balloon", "difficulty":  4, "tags": ["Tasks"] },
