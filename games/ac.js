@@ -88,7 +88,7 @@
 		{ "name": "Pay off your final debt", "difficulty":  5, "tags": ["Debts"] },
 		{ "name": "Get the tissues", "difficulty":  6, "tags": ["Debts"] },
 		
-		{ "name": "Apologize to the Wishing Well 10 times", "difficulty":  2, "tags": ["Villagers"] },
+		{ "name": "Apologize to the Wishing Well", "difficulty":  5, "tags": ["Villagers"] },
 		{ "name": "Complete 5 villager chores", "difficulty":  1, "tags": ["Villagers"] },
 		{ "name": "Win an item from a Summer Camper", "difficulty":  3, "tags": ["Villagers"] },
 		{ "name": "Win an item from an Igloo villager", "difficulty":  3, "tags": ["Villagers"] },
