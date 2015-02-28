@@ -142,22 +142,22 @@
 	},
 	
 	"tags": {
-		"Insects": { "allowmultiple": false, "singleuse": false },
-		"Fish": { "allowmultiple": false, "singleuse": false },
-		"Series": { "allowmultiple": false, "singleuse": true },
-		"Furniture": { "allowmultiple": false, "singleuse": false },
-		"Holidays": { "allowmultiple": false, "singleuse": false },
-		"Random Events": { "allowmultiple": false, "singleuse": false },
-		"Events": { "allowmultiple": false, "singleuse": false },
-		"Tasks": { "allowmultiple": true, "singleuse": false },
-		"Debts": { "allowmultiple": false, "singleuse": false },
-		"Villagers": { "allowmultiple": false, "singleuse": false },
-		"Special Characters": { "allowmultiple": false, "singleuse": false },
-		"Tools": { "allowmultiple": false, "singleuse": true },
-		"Nature": { "allowmultiple": false, "singleuse": false },
-		"Digging": { "allowmultiple": false, "singleuse": false },
-		"HRA": { "allowmultiple": false, "singleuse": true },
-		"Challenges": { "allowmultiple": false, "singleuse": true }
+		"Insects": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/biakDNm.png" },
+		"Fish": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/ZfTDhnZ.png" },
+		"Series": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/vwd6PKp.png" },
+		"Furniture": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/vwd6PKp.png" },
+		"Holidays": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/1W8HNZE.png" },
+		"Random Events": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/1W8HNZE.png" },
+		"Events": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/1W8HNZE.png" },
+		"Tasks": { "allowmultiple": true, "singleuse": false, "image": "http://i.imgur.com/Gx8ZWS3.png" },
+		"Debts": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/9X0Vo0y.png" },
+		"Villagers": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/5MnkRNI.png" },
+		"Special Characters": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/5MnkRNI.png" },
+		"Tools": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/LlPazZr.png" },
+		"Nature": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/mGsW3gR.png" },
+		"Digging": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/cgjYVEA.png" },
+		"HRA": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/sWKqd0n.png" },
+		"Challenges": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/LlPazZr.png" }
 	},
 	
 	"modifiers": {}
