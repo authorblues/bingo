@@ -145,22 +145,22 @@
 	},
 	
 	"tags": {
-		"Insects": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/biakDNm.png" },
-		"Fish": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/ZfTDhnZ.png" },
-		"Series": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/vwd6PKp.png" },
-		"Furniture": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/vwd6PKp.png" },
-		"Holidays": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/1W8HNZE.png" },
-		"Random Events": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/1W8HNZE.png" },
-		"Events": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/pD1iJJN.png" },
-		"Tasks": { "allowmultiple": true, "singleuse": false, "image": "http://i.imgur.com/Gx8ZWS3.png" },
-		"Debts": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/9X0Vo0y.png" },
-		"Villagers": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/5MnkRNI.png" },
-		"Special Characters": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/UezWC5J.png" },
-		"Tools": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/NXa1QqQ.png" },
-		"Nature": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/mGsW3gR.png" },
-		"Digging": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/cgjYVEA.png" },
-		"HRA": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/sWKqd0n.png" },
-		"Challenges": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/LlPazZr.png" }
+		"Insects": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/sbyQrik.png" },
+		"Fish": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/6gnMumb.png" },
+		"Series": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/Xrw6amK.png" },
+		"Furniture": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/Xrw6amK.png" },
+		"Holidays": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/SHc6fwn.png" },
+		"Random Events": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/SHc6fwn.png" },
+		"Events": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/LzkhcNd.png" },
+		"Tasks": { "allowmultiple": true, "singleuse": false, "image": "http://i.imgur.com/osczOuX.png" },
+		"Debts": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/I2p06m6.png" },
+		"Villagers": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/xyzJbde.png" },
+		"Special Characters": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/JZabrBw.png" },
+		"Tools": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/7pC3Voi.png" },
+		"Nature": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/F4vAKP8.png" },
+		"Digging": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/TZNt66c.png" },
+		"HRA": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/jUdkO3m.png" },
+		"Challenges": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/Z6QJFzf.png" }
 	},
 	
 	"modifiers": {}
