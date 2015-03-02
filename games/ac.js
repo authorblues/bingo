@@ -7,7 +7,7 @@
 		"You are not allowed to use a Gameboy Advance, e-Reader, or other accessories.",
 		"You are not allowed to use Tom Nook codes for anything except a modern table and standard tools.",
 		"You are not allowed to use any pre-existing data, including towns, saved letters, etc.",
-		"You are allowed to use glitches like the Walk on Table glitch, Snowball OoB glitch, and Wrong Warp glitch.",
+		"You are allowed to use glitches, including the Walk on Table glitch, Snowball OoB glitch, and Wrong Warp glitch.",
 		"<a href='http://pastebin.com/4dRb9C7M'>Click here for a list of codes you can use if your player and town name are both '!'.</a>"
 	],
 	
