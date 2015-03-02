@@ -4,7 +4,7 @@
 	"platform": "Gamecube",
 	
 	"rules": [
-		"You are not allowed to use a Gameboy Advance, e-Reader, or other accessories.",
+		"You are not allowed to use a Gameboy Advance, e-Reader, etc.",
 		"You are not allowed to use Tom Nook codes for anything except a modern table and standard tools.",
 		"You are not allowed to use any pre-existing data, including towns, saved letters, etc.",
 		"You are allowed to use glitches, including the Walk on Table glitch, Snowball OoB glitch, and Wrong Warp glitch.",
