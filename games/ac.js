@@ -49,7 +49,7 @@
 		{ "name": "Place a chess piece in your house", "difficulty":  5, "tags": ["Furniture"] },
 		{ "name": "Place a musical instrument in your house", "difficulty":  5, "tags": ["Furniture"] },
 		{ "name": "Place a Nintendo-themed item in your house", "difficulty":  5, "tags": ["Furniture"] },
-		{ "name": "Turn on an NES game", "difficulty":  6, "tags": ["Furniture"] },
+		{ "name": "Turn on an NES game", "difficulty":  4, "tags": ["Furniture"] },
 		
 		{ "name": "Get an item from Franklin", "difficulty":  2, "tags": ["Holidays"] },
 		{ "name": "Get an item from Jack", "difficulty":  5, "tags": ["Holidays"] },
