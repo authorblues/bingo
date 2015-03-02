@@ -38,7 +38,7 @@
 		{ "name": "Get an item from the Exotic Series", "difficulty":  6, "tags": ["Series"] },
 		{ "name": "Get an item from the Green Series", "difficulty":  5, "tags": ["Series"] },
 		{ "name": "Get an item from the Kiddie Series", "difficulty":  5, "tags": ["Series"] },
-		{ "name": "Get an item from the Lovely Series", "difficulty":  6, "tags": ["Series"] },
+		{ "name": "Get an item from the Lovely Series (Excluding Lovely Phone)", "difficulty":  6, "tags": ["Series"] },
 		{ "name": "Get an item from the Modern Series", "difficulty":  6, "tags": ["Series"] },
 		{ "name": "Get an item from the Ranch Series", "difficulty":  5, "tags": ["Series"] },
 		{ "name": "Get an item from the Regal Series", "difficulty":  6, "tags": ["Series"] },
