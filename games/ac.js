@@ -165,7 +165,7 @@
 		"Tools": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/7pC3Voi.png" },
 		"Nature": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/F4vAKP8.png" },
 		"Digging": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/hWOJSoc.png" },
-		"HRA": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/8DmsMsS.png" },
+		"HRA": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/GusEgtI.png" },
 		"Challenges": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/Z6QJFzf.png" }
 	},
 	
