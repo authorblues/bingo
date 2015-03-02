@@ -17,7 +17,7 @@
 		{ "name": "Catch a Bagworm", "difficulty":  4, "tags": ["Insects"] },
 		{ "name": "Catch a Banded Dragonfly", "difficulty":  5, "tags": ["Insects"] },
 		{ "name": "Catch 2 Bees", "difficulty":  3, "tags": ["Insects"] },
-		{ "name": "Catch 5 Snails", "difficulty":  2, "tags": ["Insects"] },
+		{ "name": "Catch 5 Snails", "difficulty":  3, "tags": ["Insects"] },
 		{ "name": "Catch all 4 types of cicadas", "difficulty":  1, "tags": ["Insects"] },
 		{ "name": "Have 20 different insects in your encyclopedia", "difficulty":  3, "tags": ["Insects"] },
 		
@@ -27,6 +27,7 @@
 		{ "name": "Catch an Angelfish", "difficulty":  5, "tags": ["Fish"] },
 		{ "name": "Catch a Stringfish", "difficulty":  4, "tags": ["Fish"] },
 		{ "name": "Catch 2 Coelacanths", "difficulty":  3, "tags": ["Fish"] },
+		{ "name": "Catch 5 Brook Trout", "difficulty":  4, "tags": ["Fish"] },
 		{ "name": "Catch all 4 types of bass", "difficulty":  1, "tags": ["Fish"] },
 		{ "name": "Have 20 different fish in your encyclopedia", "difficulty":  4, "tags": ["Fish"] },
 		
@@ -43,7 +44,7 @@
 		{ "name": "Get an item from the Regal Series", "difficulty":  6, "tags": ["Series"] },
 		
 		{ "name": "Get Nook's Portrait from the lottery", "difficulty":  6, "tags": ["Furniture"] },
-		{ "name": "Place a TV in your house", "difficulty":  5, "tags": ["Furniture"] },
+		{ "name": "Place a fruit-themed furniture item in your house", "difficulty":  4, "tags": ["Furniture"] },
 		{ "name": "Place a bonsai in your house", "difficulty":  5, "tags": ["Furniture"] },
 		{ "name": "Place a chess piece in your house", "difficulty":  5, "tags": ["Furniture"] },
 		{ "name": "Place a musical instrument in your house", "difficulty":  5, "tags": ["Furniture"] },
@@ -52,15 +53,15 @@
 		
 		{ "name": "Get an item from Franklin", "difficulty":  2, "tags": ["Holidays"] },
 		{ "name": "Get an item from Jack", "difficulty":  5, "tags": ["Holidays"] },
-		{ "name": "Get an item from Jingle", "difficulty":  5, "tags": ["Holidays"] },
-		{ "name": "Get an item from the Snowman", "difficulty":  6, "tags": ["Holidays"] },
+		{ "name": "Get an item from Jingle", "difficulty":  6, "tags": ["Holidays"] },
+		{ "name": "Get an item from the Snowman", "difficulty":  5, "tags": ["Holidays"] },
 		
 		{ "name": "Get an item from Gulliver", "difficulty":  3, "tags": ["Random Events"] },
 		{ "name": "Get a wallpaper from Wendell", "difficulty":  2, "tags": ["Random Events"] },
 		{ "name": "Get a carpet from Saharah", "difficulty":  2, "tags": ["Random Events"] },
 		{ "name": "Get a shirt from Gracie", "difficulty":  4, "tags": ["Random Events"] },
 		
-		{ "name": "Open 5 grab bags from Sale Day", "difficulty":  3, "tags": ["Events"] },
+		{ "name": "Open 5 grab bags from Sale Day", "difficulty":  1, "tags": ["Events"] },
 		{ "name": "Buy a pinwheel, balloon, and fan from Redd's stand", "difficulty":  3, "tags": ["Events"] },
 		{ "name": "Get a Station Model from your Hometown Day", "difficulty":  1, "tags": ["Events"] },
 		{ "name": "Win an item from the Summer Fishing Tourney", "difficulty":  2, "tags": ["Events"] },
@@ -78,18 +79,17 @@
 		{ "name": "Eat 5 pieces of candy", "difficulty":  1, "tags": ["Tasks"] },
 		{ "name": "Write 'BINGO' on 10 separate pages on the bulletin board", "difficulty":  1, "tags": ["Tasks"] },
 		{ "name": "Win an item from Nook's lottery", "difficulty":  3, "tags": ["Tasks"] },
-		{ "name": "Get the extra bridge", "difficulty":  6, "tags": ["Tasks"] },
 		{ "name": "Complete the lighthouse event", "difficulty":  5, "tags": ["Tasks"] },
 		{ "name": "Kick 5 balls into the water", "difficulty":  2, "tags": ["Tasks"] },
+		{ "name": "Fill your inventory with seashells", "difficulty":  1, "tags": ["Tasks"] },
 		
 		{ "name": "Pay off your 1st debt", "difficulty":  1, "tags": ["Debts"] },
 		{ "name": "Pay off your 2nd debt", "difficulty":  2, "tags": ["Debts"] },
-		{ "name": "Pay off your 3rd debt", "difficulty":  3, "tags": ["Debts"] },
+		{ "name": "Pay off your 3rd debt", "difficulty":  2, "tags": ["Debts"] },
 		{ "name": "Pay off your 4th debt", "difficulty":  4, "tags": ["Debts"] },
 		{ "name": "Pay off your final debt", "difficulty":  5, "tags": ["Debts"] },
-		{ "name": "Get the tissues", "difficulty":  6, "tags": ["Debts"] },
 		
-		{ "name": "Apologize to the Wishing Well", "difficulty":  5, "tags": ["Villagers"] },
+		{ "name": "Apologize to the Wishing Well", "difficulty":  6, "tags": ["Villagers"] },
 		{ "name": "Complete 5 villager chores", "difficulty":  1, "tags": ["Villagers"] },
 		{ "name": "Win an item from a Summer Camper", "difficulty":  3, "tags": ["Villagers"] },
 		{ "name": "Win an item from an Igloo villager", "difficulty":  3, "tags": ["Villagers"] },
@@ -100,16 +100,15 @@
 		{ "name": "Have Resetti fake reset your game", "difficulty":  1, "tags": ["Special Characters"] },
 		{ "name": "Get an aircheck from K.K. Slider", "difficulty":  1, "tags": ["Special Characters"] },
 		{ "name": "Receive a fortune from Katrina", "difficulty":  2, "tags": ["Special Characters"] },
-		{ "name": "Buy a painting from Crazy Redd", "difficulty":  4, "tags": ["Special Characters"] },
+		{ "name": "Buy a painting from Crazy Redd", "difficulty":  5, "tags": ["Special Characters"] },
 		{ "name": "Buy 1000 turnips from Joan", "difficulty":  3, "tags": ["Special Characters"] },
 		
 		{ "name": "Get the Golden Shovel", "difficulty":  5, "tags": ["Tools"] },
-		{ "name": "Get the Golden Axe", "difficulty":  7, "tags": ["Tools"] },
+		{ "name": "Get the Golden Axe", "difficulty":  6, "tags": ["Tools"] },
 		{ "name": "Get the Golden Net", "difficulty":  9, "tags": ["Tools"] },
 		{ "name": "Get the Golden Rod", "difficulty":  10, "tags": ["Tools"] },
 		
 		{ "name": "Eat a mushroom", "difficulty":  1, "tags": ["Nature"] },
-		{ "name": "Fill your inventory with seashells", "difficulty":  1, "tags": ["Nature"] },
 		{ "name": "Grow a non-native fruit tree", "difficulty":  4, "tags": ["Nature"] },
 		{ "name": "Grow one of every type of fruit tree (Excluding coconuts)", "difficulty":  7, "tags": ["Nature"] },
 		{ "name": "Plant a flower in every acre", "difficulty":  3, "tags": ["Nature"] },
@@ -118,11 +117,11 @@
 		{ "name": "Get 10 bell bags from shaking trees", "difficulty":  1, "tags": ["Nature"] },
 		{ "name": "Plant 4 oak saplings", "difficulty":  2, "tags": ["Nature"] },
 		{ "name": "Plant 2 cedar saplings", "difficulty":  4, "tags": ["Nature"] },
+		{ "name": "Grow a 30k bell tree", "difficulty":  6, "tags": ["Nature"] },
 		
 		{ "name": "Remove 5 stumps", "difficulty":  1, "tags": ["Digging"] },
 		{ "name": "Dig up 4 gyroids", "difficulty":  2, "tags": ["Digging"] },
 		{ "name": "Donate 6 fossils to the Museum", "difficulty":  2, "tags": ["Digging"] },
-		{ "name": "Grow a 30k bell money tree", "difficulty":  4, "tags": ["Digging"] },
 		{ "name": "Make a villager fall into a pitfall", "difficulty":  3, "tags": ["Digging"] },
 		{ "name": "Get at least 6 bell bags from one money rock", "difficulty":  2, "tags": ["Digging"] },
 		
@@ -131,6 +130,9 @@
 		{ "name": "Get over 75k HRA points", "difficulty":  8, "tags": ["HRA"] },
 		{ "name": "Get over 100k HRA points", "difficulty":  10, "tags": ["HRA"] },
 		
+		{ "name": "Talk to the Gyroid in the beta map (Requires Post Office in A-1 or A-2)", "difficulty":  7, "tags": ["Challenges"] },
+		{ "name": "Get the tissues reward from the Post Office", "difficulty":  8, "tags": ["Challenges"] },
+		{ "name": "Have Tortimer start building the extra bridge", "difficulty":  7, "tags": ["Challenges"] },
 		{ "name": "Get a reward from Wisp", "difficulty":  7, "tags": ["Challenges"] },
 		{ "name": "Get the DUMMY item", "difficulty":  9, "tags": ["Challenges"] },
 		{ "name": "Listen to a song from Kapp'n", "difficulty":  10, "tags": ["Challenges"] },
@@ -145,8 +147,8 @@
 	},
 	
 	"tags": {
-		"Insects": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/sbyQrik.png" },
-		"Fish": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/6gnMumb.png" },
+		"Insects": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/hFS9Nr6.png" },
+		"Fish": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/kcqhHO6.png" },
 		"Series": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/Xrw6amK.png" },
 		"Furniture": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/Xrw6amK.png" },
 		"Holidays": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/SHc6fwn.png" },
@@ -158,7 +160,7 @@
 		"Special Characters": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/JZabrBw.png" },
 		"Tools": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/7pC3Voi.png" },
 		"Nature": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/F4vAKP8.png" },
-		"Digging": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/TZNt66c.png" },
+		"Digging": { "allowmultiple": false, "singleuse": false, "image": "http://i.imgur.com/hWOJSoc.png" },
 		"HRA": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/jUdkO3m.png" },
 		"Challenges": { "allowmultiple": false, "singleuse": true, "image": "http://i.imgur.com/Z6QJFzf.png" }
 	},
