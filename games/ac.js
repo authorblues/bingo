@@ -60,6 +60,10 @@
 		{ "name": "Get a carpet from Saharah", "difficulty":  2, "tags": ["Random Events"] },
 		{ "name": "Get a shirt from Gracie", "difficulty":  4, "tags": ["Random Events"] },
 		
+		{ "name": "Get the Tree Model, Pink Tree Model, and Weed Model", "difficulty":  1, "tags": ["Events"] },
+		{ "name": "Get the Well Model, Locomotive Model, and Dump Model", "difficulty":  1, "tags": ["Events"] },
+		{ "name": "Get the Tailor Model, Police Model, and Shop Model", "difficulty":  1, "tags": ["Events"] },
+		{ "name": "Get the Market Model and Katrina's Tent", "difficulty":  1, "tags": ["Events"] },
 		{ "name": "Get a Station Model from your Hometown Day", "difficulty":  1, "tags": ["Events"] },
 		{ "name": "Get a Cosmos Model, Pansy Model, and Tulip Model from Groundhog Day", "difficulty":  3, "tags": ["Events"] },
 		{ "name": "Win an item from the Summer Fishing Tourney", "difficulty":  2, "tags": ["Events"] },
@@ -77,7 +81,7 @@
 		{ "name": "Draw a pattern at the Able Sisters", "difficulty":  1, "tags": ["Misc"] },
 		{ "name": "Eat 5 pieces of candy", "difficulty":  1, "tags": ["Misc"] },
 		
-		{ "name": "Get a lottery ticket for every month", "difficulty":  3, "tags": ["Tasks"] },
+		{ "name": "Get a lottery ticket for every month", "difficulty":  2, "tags": ["Tasks"] },
 		{ "name": "Open a present from a balloon", "difficulty":  4, "tags": ["Tasks"] },
 		{ "name": "Win an item from Nook's lottery", "difficulty":  3, "tags": ["Tasks"] },
 		{ "name": "Fill your inventory with seashells", "difficulty":  1, "tags": ["Tasks"] },
