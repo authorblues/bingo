@@ -5,7 +5,7 @@
 	
 	"rules": [
 		"Timer starts when you press the start button on the title screen.",
-		"Timer ends when you complete a row/column/diagonal and request a song from K.K. Slider.",
+		"Timer ends when you request a song from K.K. Slider after completing a row/column/diagonal.",
 		"You are not allowed to use a Gameboy Advance, e-Reader, etc.",
 		"You are not allowed to use Tom Nook codes for anything except a modern table and standard tools.",
 		"You are not allowed to use any pre-existing data, including towns, saved letters, etc.",
