@@ -4,6 +4,8 @@
 	"platform": "Gamecube",
 	
 	"rules": [
+		"Timer starts when you press the start button on the title screen.",
+		"Timer ends when you complete a row/column/diagonal and request a song from K.K. slider.",
 		"You are not allowed to use a Gameboy Advance, e-Reader, etc.",
 		"You are not allowed to use Tom Nook codes for anything except a modern table and standard tools.",
 		"You are not allowed to use any pre-existing data, including towns, saved letters, etc.",
@@ -104,7 +106,6 @@
 		{ "name": "Send a letter to 5 different villagers", "difficulty":  1, "tags": ["Villagers"] },
 		
 		{ "name": "Have Resetti fake reset your game", "difficulty":  1, "tags": ["Special Characters"] },
-		{ "name": "Get an aircheck from K.K. Slider", "difficulty":  1, "tags": ["Special Characters"] },
 		{ "name": "Receive a fortune from Katrina", "difficulty":  2, "tags": ["Special Characters"] },
 		{ "name": "Buy a painting from Crazy Redd", "difficulty":  5, "tags": ["Special Characters"] },
 		{ "name": "Buy 1000 turnips from Joan", "difficulty":  3, "tags": ["Special Characters"] },
