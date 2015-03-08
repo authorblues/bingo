@@ -67,7 +67,6 @@
 		{ "name": "Get the Tailor Model, Police Model, and Shop Model", "difficulty":  1, "tags": ["Events"] },
 		{ "name": "Get the Market Model and Katrina's Tent", "difficulty":  1, "tags": ["Events"] },
 		{ "name": "Get a Station Model from your Hometown Day", "difficulty":  1, "tags": ["Events"] },
-		{ "name": "Get a Cosmos Model, Pansy Model, and Tulip Model from Groundhog Day", "difficulty":  3, "tags": ["Events"] },
 		{ "name": "Win an item from the Summer Fishing Tourney", "difficulty":  2, "tags": ["Events"] },
 		{ "name": "Win an item from the Autumn Fishing Tourney", "difficulty":  2, "tags": ["Events"] },
 		{ "name": "Get the Miniature Car and Dolly from Toy Day", "difficulty":  5, "tags": ["Events"] },
