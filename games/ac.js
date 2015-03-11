@@ -116,14 +116,14 @@
 		
 		{ "name": "Eat a mushroom", "difficulty":  1, "tags": ["Nature"] },
 		{ "name": "Grow a non-native fruit tree", "difficulty":  4, "tags": ["Nature"] },
-		{ "name": "Grow one of every type of fruit tree (Excluding coconuts)", "difficulty":  7, "tags": ["Nature"] },
+		{ "name": "Grow one of every type of fruit tree (Excluding coconuts)", "difficulty":  6, "tags": ["Nature"] },
 		{ "name": "Plant a flower in every acre", "difficulty":  3, "tags": ["Nature"] },
 		{ "name": "Pick 25 weeds in a single day", "difficulty":  1, "tags": ["Nature"] },
 		{ "name": "Get 2 pieces of furniture from shaking trees", "difficulty":  2, "tags": ["Nature"] },
 		{ "name": "Get 10 bell bags from shaking trees", "difficulty":  1, "tags": ["Nature"] },
 		{ "name": "Plant 4 oak saplings", "difficulty":  2, "tags": ["Nature"] },
 		{ "name": "Plant 2 cedar saplings", "difficulty":  4, "tags": ["Nature"] },
-		{ "name": "Grow a 30k bell tree", "difficulty":  6, "tags": ["Nature"] },
+		{ "name": "Grow a 30k bell tree", "difficulty":  7, "tags": ["Nature"] },
 		
 		{ "name": "Remove 5 stumps", "difficulty":  2, "tags": ["Digging"] },
 		{ "name": "Dig up 4 gyroids", "difficulty":  2, "tags": ["Digging"] },
