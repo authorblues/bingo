@@ -73,7 +73,7 @@
 		{ "name": "Go through all of the warps to Dark World (9 of them)", "difficulty": 7, "tags": ["9DWWarps", "NoMitts"] },
 		{ "name": "You must collect 1 Heart Piece for every Y and A Item (this includes Moon Pearl) you collect ", "difficulty": 7, "tags": ["1Eq1HP", "13H"] },
 		{ "name": "Defeat the Black Ball & Chain Guard with both the fighter sword and the gold sword", "difficulty": 7, "tags": ["BnCFSGS"] },
-		{ "name": "Collect a fairy 2 unique ways in Kakariko Town without going indoors", "difficulty": 7, "tags": ["2FairyKak"] },
+		{ "name": "Collect a fairy 2 unique ways in Kakariko Town without going indoors", "difficulty": 7, "tags": ["NoNet", "2FairyKak"] },
 		{ "name": "Win 300 Rupees in a Chest Game", "difficulty": 7, "tags": ["300Rupees"] },
 		{ "name": "4 Crystals", "difficulty": 7, "tags": ["4Crys"] },
 		{ "name": "Defeat Trinexx equipped with the Master Sword", "difficulty": 7, "tags": ["TriMS"] },
