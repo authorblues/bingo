@@ -128,7 +128,7 @@ function Bingo(game, size, seed, difficulty, balance)
 			bingo.processGameData(data);
 			bingo.generateBoard();
 		}
-	})(this));
+	})(this)).fail(function(){ console.log(arguments); });
 
 	var board = this.board = [];
 	var table = this.table = $("<table id='bingo'>");
