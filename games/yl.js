@@ -17,6 +17,36 @@
 		{ "name": "Rings Challenge Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Tile Puzzle Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
 		
+		{ "name": "Snowmen Pagie in GGG", "difficulty": 4, "tags": ["Glitterglaze Glacier", "Pagies"] },
+		{ "name": "Tubbz Pagie in GGG", "difficulty": 7, "tags": ["Glitterglaze Glacier", "Pagies"] },
+		{ "name": "Trivia Pagie in GGG", "difficulty": 4, "tags": ["Glitterglaze Glacier", "Pagies"] },
+		{ "name": "Clara's Pagie in GGG", "difficulty": 3, "tags": ["Glitterglaze Glacier", "Pagies"] },
+		
+		{ "name": "Wally's Pagie in MMM", "difficulty": 1, "tags": ["Moodymaze Marsh", "Pagies"] },
+		{ "name": "Ollie's Maze Pagie in MMM", "difficulty": 3, "tags": ["Moodymaze Marsh", "Pagies"] },
+		{ "name": "Dolly's Pagie in MMM", "difficulty": 4, "tags": ["Moodymaze Marsh", "Pagies"] },
+		{ "name": "Jolly's Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies"] },
+		{ "name": "Clara's Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies"] },
+		
+		{ "name": "10 Casino Token Pagie in CC", "difficulty": 1, "tags": ["Capital Cashino", "Pagies"] },
+		{ "name": "20 Casino Token Pagie in CC", "difficulty": 2, "tags": ["Capital Cashino", "Pagies"] },
+		{ "name": "30 Casino Token Pagie in CC", "difficulty": 3, "tags": ["Capital Cashino", "Pagies"] },
+		{ "name": "40 Casino Token Pagie in CC", "difficulty": 4, "tags": ["Capital Cashino", "Pagies"] },
+		{ "name": "50 Casino Token Pagie in CC", "difficulty": 5, "tags": ["Capital Cashino", "Pagies"] },
+		
+		{ "name": "Lighthouse Pagie in GG", "difficulty": 1, "tags": ["Galleon Galaxy", "Pagies"] },
+		{ "name": "Lunar Lockup Pagie in GG", "difficulty": 2, "tags": ["Galleon Galaxy", "Pagies"] },
+		{ "name": "Crane Pagie in GG", "difficulty": 3, "tags": ["Galleon Galaxy", "Pagies"] },
+		{ "name": "Black Hole In One Pagie in GG", "difficulty": 4, "tags": ["Galleon Galaxy", "Pagies"] },
+		
+		{ "name": "Balloons Pagie in HT", "difficulty": 3, "tags": ["Hivory Towers", "Pagies"] },
+		{ "name": "Noveliser 64 Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
+		{ "name": "Underwater Rings Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
+		{ "name": "Crazy Kirkhope Pagie in HT", "difficulty": 3, "tags": ["Hivory Towers", "Pagies"] },
+		{ "name": "Toxic Tunnel Pagie in HT", "difficulty": 4, "tags": ["Hivory Towers", "Pagies"] },
+		{ "name": "Wind Tunnel Pagie in HT", "difficulty": 4, "tags": ["Hivory Towers", "Pagies"] },
+		{ "name": "Forcefield Slide Pagie in HT", "difficulty": 5, "tags": ["Hivory Towers", "Pagies"] },
+		
 		{ "name": "All Ghost Writers in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Ghost Writers"] },
 		{ "name": "All Ghost Writers in GGG", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Ghost Writers"] },
 		{ "name": "All Ghost Writers in MMM", "difficulty": 3, "tags": ["Moodymaze Marsh", "Ghost Writers"] },
