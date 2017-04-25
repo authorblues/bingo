@@ -93,7 +93,7 @@
 		"Rextro Minigames": { "allowmultiple": false, "image": "http://i.imgur.com/wICXqvP.png" },
 		"Kartos Tracks": { "allowmultiple": false, "image": "http://i.imgur.com/31cbXMV.png" },
 		"Bosses": { "allowmultiple": false, "image": "http://i.imgur.com/raIkhkd.png" },
-		"Random Goals": { "allowmultiple": true, "image": "http://i.imgur.com/VsrwkZZ.png" },
+		"Random Goals": { "allowmultiple": true, "image": "http://i.imgur.com/VsrwkZZ.png" }
 	},
 	
 	"modifiers": {
