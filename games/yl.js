@@ -85,7 +85,7 @@
 	},
 	
 	"tags": {
-		"Pagies": { "allowmultiple": true, "image": "http://i.imgur.com/CbEp2qu.png" },
+		"Pagies": { "image": "http://i.imgur.com/CbEp2qu.png" },
 		"Health Extenders": { "allowmultiple": false, "image": "http://i.imgur.com/RotvIaA.png" },
 		"Power Extenders": { "allowmultiple": false, "image": "http://i.imgur.com/7yoKtBJ.png" },
 		"Pirate Treasures": { "allowmultiple": false, "image": "http://i.imgur.com/ZJQLkjW.png" },
