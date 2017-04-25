@@ -9,10 +9,19 @@
 		"Co-op is not allowed."],
 	
 	"goals": [
-		{ "name": "Collect Clara's Pagie in Tribalstack Tropics", "difficulty": 1, "tags": ["Pagies"] },
-		{ "name": "Collect Duke's Pagie in Tribalstack Tropics", "difficulty": 1, "tags": ["Pagies"] },
-		{ "name": "Collect the Knights of Hamalot in Tribalstack Tropics", "difficulty": 2, "tags": ["Pagies"] },
-		{ "name": "Collect Duke's Pagie in Tribalstack Tropics", "difficulty": 1, "tags": ["Pagies"] },
+		{ "name": "Collect the Ghost Writer Pagie in Tribalstack Tropics", "difficulty": 1, "tags": ["Pagies"] },
+		{ "name": "Collect the Ghost Writer Pagie in Glitterglaze Glacier", "difficulty": 2, "tags": ["Pagies"] },
+		{ "name": "Collect the Ghost Writer Pagie in Moodymaze Marsh", "difficulty": 3, "tags": ["Pagies"] },
+		{ "name": "Collect the Ghost Writer Pagie in Capital Cashino", "difficulty": 4, "tags": ["Pagies"] },
+		{ "name": "Collect the Ghost Writer Pagie in Galleon Galaxy", "difficulty": 5, "tags": ["Pagies"] },
+		
+		{ "name": "Clara's Pagie in Tribalstack Tropics", "difficulty": 1, "tags": ["Pagies"] },
+		{ "name": "Duke's Pagie", "difficulty": 1, "tags": ["Pagies"] },
+		{ "name": "Knights of Hamalot Pagie in Tribalstack Tropics", "difficulty": 2, "tags": ["Pagies"] },
+		{ "name": "Tribalstack Tropics Bush Pagie", "difficulty": 3, "tags": ["Pagies"] },
+		{ "name": "Shovel Knight's Pagie in Tribalstack Tropics", "difficulty": 1, "tags": ["Pagies"] },
+		{ "name": "Rings Challenge Pagie in Tribalstack Tropics", "difficulty": 1, "tags": ["Pagies"] },
+		{ "name": "Tile Puzzle Pagie in Tribalstack Tropics", "difficulty": 1, "tags": ["Pagies"] },
 		
 		{ "name": "Collect the Tribalstack Tropics Health Extender", "difficulty": 1, "tags": ["Health Extenders"] },
 		{ "name": "Collect the Glitterglaze Glacier Health Extender", "difficulty": 2, "tags": ["Health Extenders"] },
