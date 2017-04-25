@@ -95,11 +95,11 @@
 		"Ghost Writers": { "image": "http://i.imgur.com/3zwRNNv.png" },
 		"Health Extenders": { "image": "http://i.imgur.com/RotvIaA.png" },
 		"Power Extenders": { "image": "http://i.imgur.com/7yoKtBJ.png" },
-		"Pirate Treasures": { "image": "http://i.imgur.com/ZJQLkjW.png" },
+		"Pirate Treasures": { "singleuse": true, "image": "http://i.imgur.com/ZJQLkjW.png" },
 		"Trowzer Moves": { "image": "http://i.imgur.com/uGz6jpK.png" },
 		"Rextro Minigames": { "image": "http://i.imgur.com/wICXqvP.png" },
 		"Kartos Tracks": { "image": "http://i.imgur.com/31cbXMV.png" },
-		"Bosses": { "image": "http://i.imgur.com/raIkhkd.png" },
+		"Bosses": { "singleuse": true, "image": "http://i.imgur.com/raIkhkd.png" },
 		"Random Goals": { "allowmultiple": true, "image": "http://i.imgur.com/VsrwkZZ.png" }
 	},
 	
