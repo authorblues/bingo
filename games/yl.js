@@ -19,7 +19,7 @@
 		{ "name": "Tile Puzzle Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Planker's Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Pagie Piece Pagie in TT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies"] },
-		{ "name": "Normal Nimble Race Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
+		{ "name": "Dry Nimble Race Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Icy Nimble Race Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Mr. Blowy's Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies"] },
 		
@@ -59,7 +59,7 @@
 		{ "name": "Crane Pagie in GG", "difficulty": 3, "tags": ["Galleon Galaxy", "Pagies"] },
 		{ "name": "Black Hole In One Pagie in GG", "difficulty": 4, "tags": ["Galleon Galaxy", "Pagies"] },
 		{ "name": "Shovel Knight's Pagie in GG", "difficulty": 6, "tags": ["Galleon Galaxy", "Pagies"] },
-		{ "name": "Ocean Nimble Race Pagie in GG", "difficulty": 3, "tags": ["Galleon Galaxy", "Pagies"] },
+		{ "name": "Nimble Race Pagie in GG", "difficulty": 3, "tags": ["Galleon Galaxy", "Pagies"] },
 		{ "name": "Pagie Piece Pagie in GG", "difficulty": 2, "tags": ["Galleon Galaxy", "Pagies"] },
 		{ "name": "Schell's Pagie in GG", "difficulty": 3, "tags": ["Galleon Galaxy", "Pagies"] },
 		{ "name": "Cosmic Cavern Pagie in GG", "difficulty": 1, "tags": ["Galleon Galaxy", "Pagies"] },
