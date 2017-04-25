@@ -147,7 +147,7 @@
 		{ "name": "Destroy all out of order slot machines in CC", "difficulty": 6, "tags": ["Capital Cashino", "Random Goals"] },
 		{ "name": "Make Nimbo wet in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Random Goals"] },
 		{ "name": "Help all 4 Knights of Hamalot in CC", "difficulty": 4, "tags": ["Capital Cashino", "Random Goals"] },
-		{ "name": "Complete 5 slot machines in CC", "difficulty": 3, "tags": ["Capital Cashino", "Random Goals"] },
+		{ "name": "Complete 5 slot machines in CC", "difficulty": 3, "tags": ["Capital Cashino", "Random Goals"] }
 		
 	],
 	
