@@ -11,17 +11,17 @@
 	"goals": [
 		{ "name": "Clara's Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Duke's Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies"] },
-		{ "name": "Blastooie's Pagie in TT", "difficulty": 5, "tags": ["Tribalstack Tropics", "Pagies"] },
+		{ "name": "Blastooie's Pagie in TT", "difficulty": 5, "tags": ["Tribalstack Tropics", "Pagies", "Flappy Flight"] },
 		{ "name": "Knights of Hamalot Pagie in TT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Bush Pagie in TT", "difficulty": 4, "tags": ["Tribalstack Tropics", "Pagies"] },
-		{ "name": "Shovel Knight's Pagie in TT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies"] },
+		{ "name": "Shovel Knight's Pagie in TT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies", "Flappy Flight"] },
 		{ "name": "Rings Challenge Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Tile Puzzle Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
-		{ "name": "Planker's Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies"] },
+		{ "name": "Planker's Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies", "Flappy Flight"] },
 		{ "name": "Pagie Piece Pagie in TT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Dry Nimble Race Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Icy Nimble Race Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies"] },
-		{ "name": "Mr. Blowy's Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies"] },
+		{ "name": "Mr. Blowy's Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies", "Flappy Flight"] },
 		
 		{ "name": "Rings Challenge Pagie in GGG", "difficulty": 1, "tags": ["Glitterglaze Glacier", "Pagies"] },
 		{ "name": "Musical Crystals Pagie in GGG", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Pagies"] },
@@ -30,7 +30,7 @@
 		{ "name": "Tubbz Pagie in GGG", "difficulty": 7, "tags": ["Glitterglaze Glacier", "Pagies"] },
 		{ "name": "Trivia Pagie in GGG", "difficulty": 4, "tags": ["Glitterglaze Glacier", "Pagies"] },
 		{ "name": "Clara's Pagie in GGG", "difficulty": 3, "tags": ["Glitterglaze Glacier", "Pagies"] },
-		{ "name": "Gloomy Gem Grotto Pagie in GGG", "difficulty": 3, "tags": ["Glitterglaze Glacier", "Pagies"] },
+		{ "name": "Gloomy Gem Grotto Pagie in GGG", "difficulty": 3, "tags": ["Glitterglaze Glacier", "Pagies", "Flappy Flight", "Rolling"] },
 		{ "name": "Moving Walls Pagie in GGG", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Pagies"] },
 		
 		{ "name": "Jack-O'-Lantern's Pagie in MMM", "difficulty": 1, "tags": ["Moodymaze Marsh", "Pagies"] },
@@ -44,7 +44,7 @@
 		{ "name": "Dolly's Pagie in MMM", "difficulty": 4, "tags": ["Moodymaze Marsh", "Pagies"] },
 		{ "name": "Jolly's Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies"] },
 		{ "name": "Clara's Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies"] },
-		{ "name": "Planker's Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies"] },
+		{ "name": "Planker's Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies", "Lizard Lash"] },
 		{ "name": "Obstacle Course Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies"] },
 		
 		{ "name": "6 OoB Pagies in CC", "difficulty": 3, "tags": ["Capital Cashino", "Pagies"] },
@@ -67,21 +67,20 @@
 		{ "name": "Star Fishing Pagie in GG", "difficulty": 2, "tags": ["Galleon Galaxy", "Pagies"] },
 		{ "name": "Captain's Pagie in GG", "difficulty": 2, "tags": ["Galleon Galaxy", "Pagies"] },
 		{ "name": "Rusto Pagie in GG", "difficulty": 2, "tags": ["Galleon Galaxy", "Pagies"] },
-		{ "name": "Electric Orb Pagie in GG", "difficulty": 4, "tags": ["Galleon Galaxy", "Pagies"] },
+		{ "name": "Electric Orb Pagie in GG", "difficulty": 4, "tags": ["Galleon Galaxy", "Pagies", "Sonar Shield"] },
 		{ "name": "Outhouse Pagie in GG", "difficulty": 3, "tags": ["Galleon Galaxy", "Pagies"] },
 		{ "name": "Spacecog Station Pagie in GG", "difficulty": 3, "tags": ["Galleon Galaxy", "Pagies"] },
 		{ "name": "Velocity Terminal Pagie in GG", "difficulty": 4, "tags": ["Galleon Galaxy", "Pagies"] },
 		
-		{ "name": "Blasto's Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
-		{ "name": "Shipwreck Mast Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Fire Pipe Pagie in HT", "difficulty": 4, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Novel Hovel Pagie in HT", "difficulty": 3, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Archives Pagie in HT", "difficulty": 1, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Balloons Pagie in HT", "difficulty": 3, "tags": ["Hivory Towers", "Pagies"] },
+		{ "name": "Metal Slide Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies", "With Slurp State"] },
 		{ "name": "Noveliser 64 Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Underwater Rings Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Crazy Kirkhope Pagie in HT", "difficulty": 3, "tags": ["Hivory Towers", "Pagies"] },
-		{ "name": "Toxic Tunnel Pagie in HT", "difficulty": 4, "tags": ["Hivory Towers", "Pagies"] },
+		{ "name": "Toxic Tunnel Pagie in HT", "difficulty": 4, "tags": ["Hivory Towers", "Pagies", "Sonar Shield"] },
 		{ "name": "Wind Tunnel Pagie in HT", "difficulty": 4, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Forcefield Slide Pagie in HT", "difficulty": 5, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Broken Arcade Machine Pagie in HT", "difficulty": 3, "tags": ["Hivory Towers", "Pagies"] },
@@ -185,8 +184,15 @@
 	},
 	
 	"modifiers": {
-		"Pagies": [
-			{ "name": "No Flappy Flight", "difficulty": 4 }
-		]
+		"Flappy Flight": [
+			{ "name": "No Flappy Flight", "difficulty": 4 } ],
+		"Lizard Lash": [
+			{ "name": "No Lizard Lash", "difficulty": 3 } ],
+		"Rolling": [
+			{ "name": "No Rolling", "difficulty": 2 } ],
+		"With Slurp State": [
+			{ "name": "Must Use Slurp State", "difficulty": 2 } ],
+		"Sonar Shield": [
+			{ "name": "No Sonar Shield", "difficulty": 4 } ]
 	}
 }
