@@ -68,12 +68,12 @@
 		{ "name": "Kartos track in CC", "difficulty": 4, "tags": ["Capital Cashino", "Kartos Tracks"] },
 		{ "name": "Kartos track in GG", "difficulty": 5, "tags": ["Galleon Galaxy", "Kartos Tracks"] },
 		
-		{ "name": "Defeat The Great Rampo", "difficulty": 1, "tags": ["Tribalstack Tropics", "Bosses"] },
-		{ "name": "Defeat Brrreeze Blok", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Bosses"] },
-		{ "name": "Defeat Trev the Tenteyecle", "difficulty": 3, "tags": ["Moodymaze Marsh", "Bosses"] },
-		{ "name": "Defeat I.N.E.P.T.", "difficulty": 4, "tags": ["Capital Cashino", "Bosses"] },
-		{ "name": "Defeat Planette", "difficulty": 5, "tags": ["Galleon Galaxy", "Bosses"] },
-		{ "name": "Defeat Capital B", "difficulty": 6, "tags": ["Hivory Towers", "Bosses"] }
+		{ "name": "Defeat The Great Rampo", "difficulty": 1, "tags": ["Tribalstack Tropics", "Bosses", "The Great Rampo"] },
+		{ "name": "Defeat Brrreeze Blok", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Bosses", "Brrreeze Blok"] },
+		{ "name": "Defeat Trev the Tenteyecle", "difficulty": 3, "tags": ["Moodymaze Marsh", "Bosses", "Trev the Tenteyecle"] },
+		{ "name": "Defeat I.N.E.P.T.", "difficulty": 4, "tags": ["Capital Cashino", "Bosses", "I.N.E.P.T."] },
+		{ "name": "Defeat Planette", "difficulty": 5, "tags": ["Galleon Galaxy", "Bosses", "Planette"] },
+		{ "name": "Defeat Capital B", "difficulty": 6, "tags": ["Hivory Towers", "Bosses", "Capital B"] }
 
 	],
 	
@@ -91,16 +91,25 @@
 		"Capital Cashino": { "allowmultiple": false },
 		"Galleon Galaxy": { "allowmultiple": false },
 		"Hivory Towers": { "allowmultiple": true },
+			
 		"Pagies": { "image": "http://i.imgur.com/CbEp2qu.png" },
 		"Ghost Writers": { "image": "http://i.imgur.com/3zwRNNv.png" },
 		"Health Extenders": { "image": "http://i.imgur.com/RotvIaA.png" },
 		"Power Extenders": { "image": "http://i.imgur.com/7yoKtBJ.png" },
 		"Pirate Treasures": { "image": "http://i.imgur.com/ZJQLkjW.png" },
+			
 		"Trowzer Moves": { "image": "http://i.imgur.com/uGz6jpK.png" },
 		"Rextro Minigames": { "image": "http://i.imgur.com/wICXqvP.png" },
 		"Kartos Tracks": { "image": "http://i.imgur.com/31cbXMV.png" },
-		"Bosses": { "image": "http://i.imgur.com/raIkhkd.png" },
-		"Random Goals": { "image": "http://i.imgur.com/VsrwkZZ.png" }
+			
+		"Random Goals": { "image": "http://i.imgur.com/VsrwkZZ.png" },
+			
+		"The Great Rampo": {"image": "http://i.imgur.com/9dgRcWq.png" },
+		"Brrreeze Blok": {"image": "http://i.imgur.com/pxViQR9.png" },
+		"Trev the Tenteyecle": {"image": "http://i.imgur.com/YqVek8v.png" },
+		"I.N.E.P.T.": {"image": "http://i.imgur.com/1JqtEO1.png" },
+		"Planette": {"image": "http://i.imgur.com/s4kIB1d.png" },
+		"Capital B": {"image": "http://i.imgur.com/raIkhkd.png" }
 	},
 	
 	"modifiers": {
