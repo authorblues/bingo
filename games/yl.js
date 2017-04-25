@@ -15,7 +15,7 @@
 		{ "name": "Knights of Hamalot Pagie in TT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Bush Pagie in TT", "difficulty": 4, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Shovel Knight's Pagie in TT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies", "Flappy Flight"] },
-		{ "name": "Rings Challenge Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
+		{ "name": "Rings Challenge Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies", "Rolling"] },
 		{ "name": "Tile Puzzle Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Planker's Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies", "Flappy Flight"] },
 		{ "name": "Pagie Piece Pagie in TT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies"] },
@@ -45,7 +45,7 @@
 		{ "name": "Jolly's Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies"] },
 		{ "name": "Clara's Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies"] },
 		{ "name": "Planker's Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies", "Lizard Lash"] },
-		{ "name": "Obstacle Course Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies"] },
+		{ "name": "Obstacle Course Pagie in MMM", "difficulty": 2, "tags": ["Moodymaze Marsh", "Pagies", "Rolling"] },
 		
 		{ "name": "6 OoB Pagies in CC", "difficulty": 3, "tags": ["Capital Cashino", "Pagies"] },
 		{ "name": "10 Casino Token Pagie in CC", "difficulty": 1, "tags": ["Capital Cashino", "Pagies"] },
@@ -78,7 +78,7 @@
 		{ "name": "Balloons Pagie in HT", "difficulty": 3, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Metal Slide Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies", "With Slurp State"] },
 		{ "name": "Noveliser 64 Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
-		{ "name": "Underwater Rings Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
+		{ "name": "Underwater Rings Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies", "Buddy Bubble"] },
 		{ "name": "Crazy Kirkhope Pagie in HT", "difficulty": 3, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Toxic Tunnel Pagie in HT", "difficulty": 4, "tags": ["Hivory Towers", "Pagies", "Sonar Shield"] },
 		{ "name": "Wind Tunnel Pagie in HT", "difficulty": 4, "tags": ["Hivory Towers", "Pagies"] },
@@ -193,6 +193,8 @@
 		"With Slurp State": [
 			{ "name": "Must Use Slurp State", "difficulty": 2 } ],
 		"Sonar Shield": [
-			{ "name": "No Sonar Shield", "difficulty": 4 } ]
+			{ "name": "No Sonar Shield", "difficulty": 4 } ],
+		"Buddy Bubble": [
+			{ "name": "No Buddy Bubble", "difficulty": 2 } ]
 	}
 }
