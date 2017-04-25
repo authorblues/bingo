@@ -10,10 +10,10 @@
 	
 	"goals": [
 		{ "name": "Clara's Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
-		{ "name": "Duke's Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
-		{ "name": "Knights of Hamalot Pagie in TTT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies"] },
-		{ "name": "Bush Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies"] },
-		{ "name": "Shovel Knight's Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
+		{ "name": "Duke's Pagie in TT", "difficulty": 3, "tags": ["Tribalstack Tropics", "Pagies"] },
+		{ "name": "Knights of Hamalot Pagie in TT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies"] },
+		{ "name": "Bush Pagie in TT", "difficulty": 4, "tags": ["Tribalstack Tropics", "Pagies"] },
+		{ "name": "Shovel Knight's Pagie in TT", "difficulty": 2, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Rings Challenge Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
 		{ "name": "Tile Puzzle Pagie in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pagies"] },
 		
@@ -46,12 +46,12 @@
 		{ "name": "Learn Sonar Shot", "difficulty": 1, "tags": ["Tribalstack Tropics", "Trowzer Moves"] },
 		{ "name": "Learn Slurp Shot", "difficulty": 1, "tags": ["Tribalstack Tropics", "Trowzer Moves"] },
 		{ "name": "Learn Buddy Slam", "difficulty": 1, "tags": ["Tribalstack Tropics", "Trowzer Moves"] },
-		{ "name": "Learn Slurp State", "difficulty": 1, "tags": ["Glitterglaze Glacier", "Trowzer Moves"] },
-		{ "name": "Learn Lizard Leap", "difficulty": 1, "tags": ["Glitterglaze Glacier", "Trowzer Moves"] },
-		{ "name": "Learn Sonar 'Splosion", "difficulty": 1, "tags": ["Moodymaze Marsh", "Trowzer Moves"] },
-		{ "name": "Learn Lizard Lash", "difficulty": 1, "tags": ["Moodymaze Marsh", "Trowzer Moves"] },
-		{ "name": "Learn Reptile Rush", "difficulty": 1, "tags": ["Capital Cashino", "Trowzer Moves"] },
-		{ "name": "Learn Sonar Shield", "difficulty": 1, "tags": ["Galleon Galaxy", "Trowzer Moves"] },
+		{ "name": "Learn Slurp State", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Trowzer Moves"] },
+		{ "name": "Learn Lizard Leap", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Trowzer Moves"] },
+		{ "name": "Learn Sonar 'Splosion", "difficulty": 3, "tags": ["Moodymaze Marsh", "Trowzer Moves"] },
+		{ "name": "Learn Lizard Lash", "difficulty": 3, "tags": ["Moodymaze Marsh", "Trowzer Moves"] },
+		{ "name": "Learn Reptile Rush", "difficulty": 4, "tags": ["Capital Cashino", "Trowzer Moves"] },
+		{ "name": "Learn Sonar Shield", "difficulty": 5, "tags": ["Galleon Galaxy", "Trowzer Moves"] },
 		
 		{ "name": "Complete Kartos Karting", "difficulty": 1, "tags": ["Tribalstack Tropics", "Rextro Minigames"] },
 		{ "name": "Complete Glaciators", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Rextro Minigames"] },
@@ -69,11 +69,11 @@
 		{ "name": "Kartos track in GG", "difficulty": 5, "tags": ["Galleon Galaxy", "Kartos Tracks"] },
 		
 		{ "name": "Defeat The Great Rampo", "difficulty": 1, "tags": ["Tribalstack Tropics", "Bosses"] },
-		{ "name": "Defeat Brrreeze Blok", "difficulty": 1, "tags": ["Glitterglaze Glacier", "Bosses"] },
-		{ "name": "Defeat Trev the Tenteyecle", "difficulty": 1, "tags": ["Moodymaze Marsh", "Bosses"] },
-		{ "name": "Defeat I.N.E.P.T.", "difficulty": 1, "tags": ["Capital Cashino", "Bosses"] },
-		{ "name": "Defeat Planette", "difficulty": 1, "tags": ["Galleon Galaxy", "Bosses"] },
-		{ "name": "Defeat Capital B", "difficulty": 1, "tags": ["Hivory Towers", "Bosses"] }
+		{ "name": "Defeat Brrreeze Blok", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Bosses"] },
+		{ "name": "Defeat Trev the Tenteyecle", "difficulty": 3, "tags": ["Moodymaze Marsh", "Bosses"] },
+		{ "name": "Defeat I.N.E.P.T.", "difficulty": 4, "tags": ["Capital Cashino", "Bosses"] },
+		{ "name": "Defeat Planette", "difficulty": 5, "tags": ["Galleon Galaxy", "Bosses"] },
+		{ "name": "Defeat Capital B", "difficulty": 6, "tags": ["Hivory Towers", "Bosses"] }
 
 	],
 	
