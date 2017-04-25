@@ -76,7 +76,7 @@
 		{ "name": "Shipwreck Mast Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Fire Pipe Pagie in HT", "difficulty": 4, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Novel Hovel Pagie in HT", "difficulty": 3, "tags": ["Hivory Towers", "Pagies"] },
-		{ "name": "Archives Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
+		{ "name": "Archives Pagie in HT", "difficulty": 1, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Balloons Pagie in HT", "difficulty": 3, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Noveliser 64 Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
 		{ "name": "Underwater Rings Pagie in HT", "difficulty": 2, "tags": ["Hivory Towers", "Pagies"] },
@@ -97,14 +97,12 @@
 		{ "name": "Health Extender in MMM", "difficulty": 3, "tags": ["Moodymaze Marsh", "Health Extenders"] },
 		{ "name": "Health Extender in CC", "difficulty": 4, "tags": ["Capital Cashino", "Health Extenders"] },
 		{ "name": "Health Extender in GG", "difficulty": 5, "tags": ["Galleon Galaxy", "Health Extenders"] },
-		{ "name": "Health Extender in HT", "difficulty": 1, "tags": ["Hivory Towers", "Health Extenders"] },
 		
 		{ "name": "Power Extender in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Power Extenders"] },
 		{ "name": "Power Extender in GGG", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Power Extenders"] },
 		{ "name": "Power Extender in MMM", "difficulty": 3, "tags": ["Moodymaze Marsh", "Power Extenders"] },
 		{ "name": "Power Extender in CC", "difficulty": 4, "tags": ["Capital Cashino", "Power Extenders"] },
 		{ "name": "Power Extender in GG", "difficulty": 5, "tags": ["Galleon Galaxy", "Power Extenders"] },
-		{ "name": "Power Extender in HT", "difficulty": 1, "tags": ["Hivory Towers", "Power Extenders"] },
 		
 		{ "name": "Pirate Treasure in TT", "difficulty": 1, "tags": ["Tribalstack Tropics", "Pirate Treasures"] },
 		{ "name": "Pirate Treasure in GGG", "difficulty": 2, "tags": ["Glitterglaze Glacier", "Pirate Treasures"] },
