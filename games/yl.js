@@ -185,7 +185,7 @@
 	
 	"modifiers": {
 		"Flappy Flight": [
-			{ "name": "No Flappy Flight", "difficulty": 4 } ],
+			{ "name": "No Flappy Flight", "difficulty": 3 } ],
 		"Lizard Lash": [
 			{ "name": "No Lizard Lash", "difficulty": 3 } ],
 		"Rolling": [
@@ -193,7 +193,7 @@
 		"With Slurp State": [
 			{ "name": "Must Use Slurp State", "difficulty": 2 } ],
 		"Sonar Shield": [
-			{ "name": "No Sonar Shield", "difficulty": 4 } ],
+			{ "name": "No Sonar Shield", "difficulty": 3 } ],
 		"Buddy Bubble": [
 			{ "name": "No Buddy Bubble", "difficulty": 2 } ]
 	}
