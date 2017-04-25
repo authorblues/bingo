@@ -37,6 +37,12 @@
 		{ "name": "Collect the Galleon Galaxy Power Extender", "difficulty": 5, "tags": ["Power Extenders"] },
 		{ "name": "Collect the Hivory Towers Power Extender", "difficulty": 1, "tags": ["Power Extenders"] },
 		
+		{ "name": "Collect the Tribalstack Tropics Pirate Treasure", "difficulty": 1, "tags": ["Pirate Treasures"] },
+		{ "name": "Collect the Glitterglaze Glacier Pirate Treasure", "difficulty": 2, "tags": ["Pirate Treasures"] },
+		{ "name": "Collect the Moodymaze Marsh Pirate Treasure", "difficulty": 3, "tags": ["Pirate Treasures"] },
+		{ "name": "Collect the Capital Cashino Pirate Treasure", "difficulty": 4, "tags": ["Pirate Treasures"] },
+		{ "name": "Collect the Galleon Galaxy Pirate Treasure", "difficulty": 5, "tags": ["Pirate Treasures"] },
+		
 		{ "name": "Learn Sonar Shot", "difficulty": 1, "tags": ["Trowzer Moves"] },
 		{ "name": "Learn Slurp Shot", "difficulty": 1, "tags": ["Trowzer Moves"] },
 		{ "name": "Learn Buddy Slam", "difficulty": 1, "tags": ["Trowzer Moves"] },
@@ -82,11 +88,12 @@
 		"Pagies": { "allowmultiple": true, "image": "http://i.imgur.com/CbEp2qu.png" },
 		"Health Extenders": { "allowmultiple": false, "image": "http://i.imgur.com/RotvIaA.png" },
 		"Power Extenders": { "allowmultiple": false, "image": "http://i.imgur.com/7yoKtBJ.png" },
+		"Pirate Treasures": { "allowmultiple": false, "image": "http://i.imgur.com/ZJQLkjW.png" },
 		"Trowzer Moves": { "allowmultiple": false, "image": "http://i.imgur.com/uGz6jpK.png" },
 		"Rextro Minigames": { "allowmultiple": false, "image": "http://i.imgur.com/wICXqvP.png" },
 		"Kartos Tracks": { "allowmultiple": false, "image": "http://i.imgur.com/31cbXMV.png" },
 		"Bosses": { "allowmultiple": false, "image": "http://i.imgur.com/raIkhkd.png" },
-		"Random Goals": { "allowmultiple": true, "image": "http://i.imgur.com/VsrwkZZ.png" }
+		"Random Goals": { "allowmultiple": true, "image": "http://i.imgur.com/VsrwkZZ.png" },
 	},
 	
 	"modifiers": {
