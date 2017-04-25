@@ -79,8 +79,8 @@
 	
 	"difficulty": {
 		"easymax": 3,
-		"normmin": 3,
-		"normmax": 6,
+		"normmin": 1,
+		"normmax": 20,
 		"hardmin": 5
 	},
 	
